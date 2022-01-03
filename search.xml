@@ -32,6 +32,19 @@
       </tags>
   </entry>
   <entry>
+    <title>manim移植计划</title>
+    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
+]]></content>
+      <categories>
+        <category>计算机技术</category>
+      </categories>
+      <tags>
+        <tag>代码移植</tag>
+        <tag>代替传统PPT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>language_revamp_needed</title>
     <url>/2021/08/04/language%20revamp%20needed/</url>
     <content><![CDATA[<h1 id="language-revamp-1-needed"><a href="#language-revamp-1-needed" class="headerlink" title="language revamp[^1] needed"></a>language revamp[^1] needed</h1><p>The terminology[^2] used in genetics needs a complete overhaul[^3] to break free from[^4] its problematic[^5] past,says <strong>Adam Rutherford</strong></p>
@@ -47,19 +60,6 @@
         <tag>英文</tag>
         <tag>期刊</tag>
         <tag>全文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>manim移植计划</title>
-    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
-]]></content>
-      <categories>
-        <category>计算机技术</category>
-      </categories>
-      <tags>
-        <tag>代码移植</tag>
-        <tag>代替传统PPT</tag>
       </tags>
   </entry>
   <entry>
@@ -125,9 +125,12 @@
   <entry>
     <title>证卷分析</title>
     <url>/2022/01/03/security_analysis/</url>
-    <content><![CDATA[<h2 id="回归分析"><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><p><img data-src="security_analysis/plot01.svg" alt="plot01"></p>
-<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><p><img data-src="security_analysis/plot02.svg" alt="plot02"></p>
-<h3 id="恺英网络-002517-SZ-流通66-42亿"><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><p><img data-src="security_analysis/plot03.svg" alt="plot03"></p>
+    <content><![CDATA[<h2 id="回归分析"><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2022/01/03/security_analysis/plot01.svg" class title="plot01">
+
+<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2022/01/03/security_analysis/plot02.svg" class title="plot02">
+
+<h3 id="恺英网络-002517-SZ-流通66-42亿"><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2022/01/03/security_analysis/plot03.svg" class title="plot03">
+
 ]]></content>
       <categories>
         <category>社科技术</category>
@@ -143,19 +146,29 @@
     <content><![CDATA[<h2 id="为什么需要一个博客logo"><a href="#为什么需要一个博客logo" class="headerlink" title="为什么需要一个博客logo"></a>为什么需要一个博客logo</h2><p>​图像总比语言来的印象深刻（更容易），个人的博客需要一个高区别度的logo（有个性哒！）</p>
 <h2 id="我对于logo的一些想法"><a href="#我对于logo的一些想法" class="headerlink" title="我对于logo的一些想法"></a>我对于logo的一些想法</h2><p>​我希望我的blog是用来分享知识和生活的地方，于是他应该像一本有趣的书籍一样；logo最好可以传达出这样的信息。由于blog的界面上logo的展示区域是十分的小的，那么它无法过于复杂。</p>
 <p>​为了方便设计师（一个非常腻害的姐姐<del>但她看起来比我小的多</del>）迅速展开工作，我提供了一些灵感：</p>
-<h3 id="一个半开的书"><a href="#一个半开的书" class="headerlink" title="一个半开的书"></a>一个半开的书</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E5%8D%8A%E5%BC%80%E7%9A%84%E4%B9%A6-162831732659010.jpg" alt="半开的书"></p>
-<h3 id="属于字母的结合"><a href="#属于字母的结合" class="headerlink" title="属于字母的结合"></a>属于字母的结合</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E4%B9%A6%E4%B8%8E%E5%AD%97%E6%AF%8D%E7%9A%84%E7%BB%93%E5%90%88-16283173209399.webp" alt="书与字母的结合"></p>
-<h3 id="一个丰富（复杂）的图标"><a href="#一个丰富（复杂）的图标" class="headerlink" title="一个丰富（复杂）的图标"></a>一个丰富（复杂）的图标</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/954dfaf7355e243d3f85ecb505dbc5f4-16283173171868.png" alt="954dfaf7355e243d3f85ecb505dbc5f4"></p>
-<h3 id="创意的书籍"><a href="#创意的书籍" class="headerlink" title="创意的书籍"></a>创意的书籍</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/e247e5f2c363dde0bbfd22366b077cc1-16283173141847.jpg" alt="e247e5f2c363dde0bbfd22366b077cc1"></p>
+<h3 id="一个半开的书"><a href="#一个半开的书" class="headerlink" title="一个半开的书"></a>一个半开的书</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E5%8D%8A%E5%BC%80%E7%9A%84%E4%B9%A6-162831732659010.jpg" class title="半开的书">
+
+<h3 id="属于字母的结合"><a href="#属于字母的结合" class="headerlink" title="属于字母的结合"></a>属于字母的结合</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E4%B9%A6%E4%B8%8E%E5%AD%97%E6%AF%8D%E7%9A%84%E7%BB%93%E5%90%88-16283173209399.webp" class title="书与字母的结合">
+
+<h3 id="一个丰富（复杂）的图标"><a href="#一个丰富（复杂）的图标" class="headerlink" title="一个丰富（复杂）的图标"></a>一个丰富（复杂）的图标</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/954dfaf7355e243d3f85ecb505dbc5f4-16283173171868.png" class title="954dfaf7355e243d3f85ecb505dbc5f4">
+
+<h3 id="创意的书籍"><a href="#创意的书籍" class="headerlink" title="创意的书籍"></a>创意的书籍</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/e247e5f2c363dde0bbfd22366b077cc1-16283173141847.jpg" class title="e247e5f2c363dde0bbfd22366b077cc1">
+
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>其实以上这些都无法直接拿来作为logo，复杂是他们最大的缺陷；下面来分享一下不错的logo。</p>
-<h3 id="简笔的书籍和字母"><a href="#简笔的书籍和字母" class="headerlink" title="简笔的书籍和字母"></a>简笔的书籍和字母</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E4%B9%A6%E7%9A%84%E7%BF%BB%E5%BC%80%E8%BF%87%E7%A8%8B-16283173105306.jpg" alt="书的翻开过程"></p>
-<h3 id="书与笔的结合"><a href="#书与笔的结合" class="headerlink" title="书与笔的结合"></a>书与笔的结合</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/dc990e1bcc8e3182c8ca89020b176efc-16283173043175.webp" alt="dc990e1bcc8e3182c8ca89020b176efc"></p>
-<h3 id="一个书堆"><a href="#一个书堆" class="headerlink" title="一个书堆"></a>一个书堆</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/7aa250910afb0aea6c0d0d8cc4e85be4-16283173005354.webp" alt="7aa250910afb0aea6c0d0d8cc4e85be4"></p>
-<h3 id="看起来像文件夹的书？"><a href="#看起来像文件夹的书？" class="headerlink" title="看起来像文件夹的书？"></a>看起来像文件夹的书？</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/9a5d41845ffcc637d87026cb04409f34-16283172968083.webp" alt="9a5d41845ffcc637d87026cb04409f34"></p>
-<h3 id="书签与书"><a href="#书签与书" class="headerlink" title="书签与书"></a>书签与书</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/50b7895d3c1dcbc3d04d497d8ddd245c-16283172921052.webp" alt="50b7895d3c1dcbc3d04d497d8ddd245c"></p>
-<h3 id="简约的logo"><a href="#简约的logo" class="headerlink" title="简约的logo"></a>简约的logo</h3><p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E4%B9%A6%E7%9A%84%E7%AE%80%E7%AC%94-16283172845621.webp" alt="书的简笔"></p>
+<h3 id="简笔的书籍和字母"><a href="#简笔的书籍和字母" class="headerlink" title="简笔的书籍和字母"></a>简笔的书籍和字母</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E4%B9%A6%E7%9A%84%E7%BF%BB%E5%BC%80%E8%BF%87%E7%A8%8B-16283173105306.jpg" class title="书的翻开过程">
+
+<h3 id="书与笔的结合"><a href="#书与笔的结合" class="headerlink" title="书与笔的结合"></a>书与笔的结合</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/dc990e1bcc8e3182c8ca89020b176efc-16283173043175.webp" class title="dc990e1bcc8e3182c8ca89020b176efc">
+
+<h3 id="一个书堆"><a href="#一个书堆" class="headerlink" title="一个书堆"></a>一个书堆</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/7aa250910afb0aea6c0d0d8cc4e85be4-16283173005354.webp" class title="7aa250910afb0aea6c0d0d8cc4e85be4">
+
+<h3 id="看起来像文件夹的书？"><a href="#看起来像文件夹的书？" class="headerlink" title="看起来像文件夹的书？"></a>看起来像文件夹的书？</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/9a5d41845ffcc637d87026cb04409f34-16283172968083.webp" class title="9a5d41845ffcc637d87026cb04409f34">
+
+<h3 id="书签与书"><a href="#书签与书" class="headerlink" title="书签与书"></a>书签与书</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/50b7895d3c1dcbc3d04d497d8ddd245c-16283172921052.webp" class title="50b7895d3c1dcbc3d04d497d8ddd245c">
+
+<h3 id="简约的logo"><a href="#简约的logo" class="headerlink" title="简约的logo"></a>简约的logo</h3><img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/%E4%B9%A6%E7%9A%84%E7%AE%80%E7%AC%94-16283172845621.webp" class title="书的简笔">
+
 <p>​在这里提醒一下：这是logo在整个页面的“占地面积”（蓝色的圆相切的正方形）。所以，logo最好是类似的形状哦。</p>
-<p><img data-src="%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/image-20210807133158096.png" alt="image-20210807133158096"></p>
+<img data-src="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/image-20210807133158096.png" class title="image-20210807133158096">
 ]]></content>
       <categories>
         <category>计算机技术</category>
@@ -175,29 +188,40 @@
 <p><strong>•前期在校园内以抽样调查为主，在经历一系列的调查后，了解到现在的大学生主要的毕业去向后，进行初级数据的整理，分析对这进行有根据的进货方向，再对尤其是大三甚至是大四的学生进行重点调查，确认他们具体的购书类型进行书店书籍的购买。</strong></p>
 <h2 id="如何用SPSS进行信度和效度分析"><a href="#如何用SPSS进行信度和效度分析" class="headerlink" title="如何用SPSS进行信度和效度分析"></a>如何用SPSS进行信度和效度分析</h2><p>|r|≥0.8时,可视为两个变量之间高度相；0.5≤|r|&lt;0.8时，可视为中度相关；0.3≤|r|&lt;0.5时，视为低度相关；|r|&lt;0.3时，说明两个变量之间的相关程度极弱,可视为不相关。</p>
 <h2 id="大学生对于书籍价格的接受度"><a href="#大学生对于书籍价格的接受度" class="headerlink" title="大学生对于书籍价格的接受度"></a>大学生对于书籍价格的接受度</h2><p> 从图中可以很明显的得知，随着个人生活费的提高，对于在书籍的上的投入也越高；这同时也验证了我们的猜想。但同时我们也要意识到，生活费为1000~2000的同学是占大多数的，我们书记的定价最好要迎合主要消费者的价格接受度。</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601192132155.png" alt="image-20210601192132155"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601192132155.png" class title="image-20210601192132155">
+
 <h2 id="对于书籍种类的偏向"><a href="#对于书籍种类的偏向" class="headerlink" title="对于书籍种类的偏向"></a>对于书籍种类的偏向</h2><p> 大体上分为四个色区 <em>（橙色、绿色、褐色、蓝色）</em>分别表示：购买辅导书及其他书籍的、购买漫画及其他书籍的、购买文学类及其他书籍的 和 购买小说及其他书籍的分布情况。发现同学们对于教辅书籍、文学和小说是需求最大的；我们书店的书籍成列应该以这三种书籍为主。</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210531145110371.png" alt="image-20210531145110371"></h2><p> 总体上来看，认为在广陵开一家书店的人数占比是比较大的<em>（约占77%）</em>；</p>
+<h2 id><a href="#" class="headerlink" title></a><img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210531145110371.png" class title="image-20210531145110371"></h2><p> 总体上来看，认为在广陵开一家书店的人数占比是比较大的<em>（约占77%）</em>；</p>
 <p>我们将被调查者大致分为四个年级段，我们调查发现这四个年级段对于书店的需求情况是大体相同的，也就是说我们的服务对象可以是各个年级段。但是我们也注意到大三年级的同学，对于书店的需求相比于其它年级段的同学有不少的差距。</p>
 <h2 id="各年级段对于电子书和实体书喜好"><a href="#各年级段对于电子书和实体书喜好" class="headerlink" title="各年级段对于电子书和实体书喜好"></a>各年级段对于电子书和实体书喜好</h2><p> 同时，我也对比了各年级段对于电子书和实体书的偏爱情况，我们发现除了大三的同学对于电子文档颇有偏爱，其他年级段大多数人都更加喜欢实体书籍。</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210531094518052.png" alt="image-20210531094518052"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210531094518052.png" class title="image-20210531094518052">
+
 <h2 id="购书的途径"><a href="#购书的途径" class="headerlink" title="购书的途径"></a>购书的途径</h2><p> 利用饼图可以很容易看出，大多数人是偏向于网上购书的。</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601193434384.png" alt="image-20210601193434384"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601193434384.png" class title="image-20210601193434384">
+
 <h2 id="书籍作为礼物的可能性"><a href="#书籍作为礼物的可能性" class="headerlink" title="书籍作为礼物的可能性"></a>书籍作为礼物的可能性</h2><p> 书记作为礼物的可能性：</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601195209153.png" alt="image-20210601195209153"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601195209153.png" class title="image-20210601195209153">
+
 <h3 id="会把书籍作为礼物"><a href="#会把书籍作为礼物" class="headerlink" title="会把书籍作为礼物"></a>会把书籍作为礼物</h3><p> 是否愿意将书籍作为礼物赠与好友以及这样做的原因；我们先来看大多数人是因为什么来将书籍作为礼物的，图中可以看出大多数人是因为书记的内容其次就是为了功能性，而精美的书籍只是锦上添花而已。</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601194509309.png" alt="image-20210601194509309"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601194509309.png" class title="image-20210601194509309">
+
 <p> 收到书籍时喜欢的原因：书籍的内容和包装并驾齐驱；<del>然而给别人选书的时候几乎不考虑包装</del> 从结果的角度出发，如果一个书籍作为礼物要很受人喜欢，内容很重要，包装也很重要！</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601200020850.png" alt="image-20210601200020850"></p>
-<h3 id="不会把书籍作为礼物的原因"><a href="#不会把书籍作为礼物的原因" class="headerlink" title="不会把书籍作为礼物的原因"></a>不会把书籍作为礼物的原因</h3><p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601201135768.png" alt="image-20210601201135768"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601200020850.png" class title="image-20210601200020850">
+
+<h3 id="不会把书籍作为礼物的原因"><a href="#不会把书籍作为礼物的原因" class="headerlink" title="不会把书籍作为礼物的原因"></a>不会把书籍作为礼物的原因</h3><img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601201135768.png" class title="image-20210601201135768">
+
 <h2 id="同学们对于自动打印机的评价"><a href="#同学们对于自动打印机的评价" class="headerlink" title="同学们对于自动打印机的评价"></a>同学们对于自动打印机的评价</h2><p> 同学们分别对于打印质量、功能性、易用性、打印速度，这些个维度来进行评价；其中对于自动打印机的评价总体上来看是偏向赞成的，但是有相当大的一部分人是不清楚自动打印机的！纵向对比来看同学们对于自动打印机的易用性上有些许提升空间。  <del>软件的优化、人机交互的优化、简化打印流程等</del></p>
-<h2 id="对于书店额外功能的建议"><a href="#对于书店额外功能的建议" class="headerlink" title="对于书店额外功能的建议"></a>对于书店额外功能的建议</h2><p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601203009488.png" alt="image-20210601203009488"></p>
+<h2 id="对于书店额外功能的建议"><a href="#对于书店额外功能的建议" class="headerlink" title="对于书店额外功能的建议"></a>对于书店额外功能的建议</h2><img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601203009488.png" class title="image-20210601203009488">
+
 <h2 id="店提供读书环境"><a href="#店提供读书环境" class="headerlink" title="店提供读书环境"></a>店提供读书环境</h2><p> 通过调查我们发现书店提供读书环境的需求还是比较大的。</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601203419859.png" alt="image-20210601203419859"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601203419859.png" class title="image-20210601203419859">
+
 <p> 那么具体人们需要什么样的环境呢？</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601204444475.png" alt="image-20210601204444475"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601204444475.png" class title="image-20210601204444475">
+
 <h2 id="培养读书的兴趣"><a href="#培养读书的兴趣" class="headerlink" title="培养读书的兴趣"></a>培养读书的兴趣</h2><p> 表面上看的是对读书感兴趣的人的占比；实际上可以看出，有多少人是我们的潜在用户！</p>
-<p><img data-src="%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601205404639.png" alt="image-20210601205404639"></p>
+<img data-src="/2022/01/03/%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80%E5%AD%A6%E6%8A%A5%E5%91%8A%E6%80%9D%E8%B7%AF/image-20210601205404639.png" class title="image-20210601205404639">
+
 <h2 id="效度检验"><a href="#效度检验" class="headerlink" title="效度检验"></a>效度检验</h2><p> KMO值为0.435，不大于0.6，无法通过Bartlett球形检验，意味着数据具较低的效度。</p>
 <p> 巴特利球形读检验，该值较小,且其对应的相伴概率值小于指定的显著水平时,接受零假设,我们的原有变量之间不存在相关性,数据不适合进行主成分分析。</p>
 <table>
@@ -411,6 +435,61 @@
       </tags>
   </entry>
   <entry>
+    <title>微积分例题</title>
+    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据分析</title>
+    <url>/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h2 id="数据清洗"><a href="#数据清洗" class="headerlink" title="数据清洗"></a>数据清洗</h2><p>去除用时过短地数据和用时过长的数据，最终获取到了110份有效的问卷。</p>
+<h2 id="数据选择"><a href="#数据选择" class="headerlink" title="数据选择"></a>数据选择</h2><p>我们对于收集到的24个数据测度选取了其中的20个，忽略了IP、问卷开始时间、问卷结束时间 和 空白的名称。我们认为被忽略的的信息是没有什么效用的，保留的话可能对于数据结果产生比较坏的影响。其中这20个数据中，分类数据包括：被调查者年级、购书方式、购书种类、是否送书、喜欢书籍的原因等；数值数据包括：生活费、月购书金额等。</p>
+<h2 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h2><p>本次接受调查的大多是大学三年级的学生约占50.93%，其余的分别是大学二年级19.44%、大学一年级18.52%、大学四年级10.19% 和 毕业了0.93%。而对于在广陵学院开一家书店，大部分人是认为很有必要的（占比77.27%）。</p>
+<p>为了进一步了解广陵学院的学生对于书籍的偏向和消费能力，我们对于学生的生活费做了初步了解，将学生分为四个层级：生活费1000元以下、生活费1000~ 1500元以内、生活费1500~ 2000元以内 和 生活费2000元以上的。</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210601192132155.png" class title="image-20210601192132155">
+
+<p>图中我们发现，在生活费1000元以下的层级中，大部分人选择每月消费不大于50元的金额在书籍上；对于生活费1000~ 1500层级的学生，也同样大部分人选择消费不大于50元在书籍上；而对于生活费在1500~ 2000元层级的学生，大多数人会愿意花费100元以上但小于200元的金额在书籍上；在最后的2000元以上的层级中，大多数人会花费200元以上在书记的购买上。我们按照最保守的估计（按照购书金额区间的最小值取，计算它们的均值）,即每110人可消费6320元，每个人大约可以消费57.5元，全校有12000余人，每月书籍消费量约有689454.5元。</p>
+<p>接下来，我们了解到这些书籍的购入渠道大部分是来自网上购物，约78.18；实体书店的占比仅有17.27%，那么我们占到的消费量最多为120171.919。</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605212550785-16279893074671.png" class title="image-20210605212550785-16279893074671">
+
+<p>于是，倘如要开书店，我们必须要扩大市场占比，提供更多的服务来满足读书者的需求。询问了广陵学生对于书店的要求，其中有60%的人很希望书店提供读书环境，仅有10.91%的学生完全不在乎；我们深入询问了怎样的环境是十分适合阅读的呢，给出的答案为以下几个为主：优雅的音乐、独立的空间、良好的隔音 和 大量可供阅读的书籍。</p>
+<p>同时为了节约人力成本 和 增加书店功能，我们对于自动打印机的推广做了相关调查。</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221839069-16279816499652.png" class title="image-20210605221839069-16279816499652">
+
+<p>通过KMO和巴特利特检验，KMO 取样适切性量数0.790并且显著性为0.00，说明适合主成分分析</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221906204-16279816478181.png" class title="image-20210605221906204-16279816478181">
+
+<p>提取的在和平方和占69.897%，可以接受的范围。</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221906204.png" class title="image-20210605221906204">
+
+<p>这些都是可以有效描述广陵学院的学生对于自动打印机的认可度。</p>
+<p>可靠性分析：</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221641746.png" class title="image-20210605221641746">
+
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221603735.png" class title="image-20210605221603735">
+
+<p>不需要删除任何一项。</p>
+<img data-src="/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221527964.png" class title="image-20210605221527964">
+
+<p>从分布来看，我们在自动打印机的易用度上还有待提高。</p>
+]]></content>
+      <categories>
+        <category>社科技术</category>
+      </categories>
+      <tags>
+        <tag>市场营销学</tag>
+        <tag>小报告</tag>
+        <tag>数据分析</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数学分析大纲</title>
     <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/</url>
     <content><![CDATA[<h1 id="绪论-实数"><a href="#绪论-实数" class="headerlink" title="绪论 实数"></a>绪论 实数</h1><h2 id="有理数域"><a href="#有理数域" class="headerlink" title="有理数域"></a>有理数域</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>读者学数学一定要有耐心！</p>
@@ -437,18 +516,6 @@
       </tags>
   </entry>
   <entry>
-    <title>微积分例题</title>
-    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学分析（陈纪修）例题</title>
     <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
     <content><![CDATA[]]></content>
@@ -458,41 +525,6 @@
       <tags>
         <tag>数学分析</tag>
         <tag>例题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据分析</title>
-    <url>/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<h2 id="数据清洗"><a href="#数据清洗" class="headerlink" title="数据清洗"></a>数据清洗</h2><p>去除用时过短地数据和用时过长的数据，最终获取到了110份有效的问卷。</p>
-<h2 id="数据选择"><a href="#数据选择" class="headerlink" title="数据选择"></a>数据选择</h2><p>我们对于收集到的24个数据测度选取了其中的20个，忽略了IP、问卷开始时间、问卷结束时间 和 空白的名称。我们认为被忽略的的信息是没有什么效用的，保留的话可能对于数据结果产生比较坏的影响。其中这20个数据中，分类数据包括：被调查者年级、购书方式、购书种类、是否送书、喜欢书籍的原因等；数值数据包括：生活费、月购书金额等。</p>
-<h2 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h2><p>本次接受调查的大多是大学三年级的学生约占50.93%，其余的分别是大学二年级19.44%、大学一年级18.52%、大学四年级10.19% 和 毕业了0.93%。而对于在广陵学院开一家书店，大部分人是认为很有必要的（占比77.27%）。</p>
-<p>为了进一步了解广陵学院的学生对于书籍的偏向和消费能力，我们对于学生的生活费做了初步了解，将学生分为四个层级：生活费1000元以下、生活费1000~ 1500元以内、生活费1500~ 2000元以内 和 生活费2000元以上的。</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210601192132155.png" alt="image-20210601192132155"></p>
-<p>图中我们发现，在生活费1000元以下的层级中，大部分人选择每月消费不大于50元的金额在书籍上；对于生活费1000~ 1500层级的学生，也同样大部分人选择消费不大于50元在书籍上；而对于生活费在1500~ 2000元层级的学生，大多数人会愿意花费100元以上但小于200元的金额在书籍上；在最后的2000元以上的层级中，大多数人会花费200元以上在书记的购买上。我们按照最保守的估计（按照购书金额区间的最小值取，计算它们的均值）,即每110人可消费6320元，每个人大约可以消费57.5元，全校有12000余人，每月书籍消费量约有689454.5元。</p>
-<p>接下来，我们了解到这些书籍的购入渠道大部分是来自网上购物，约78.18；实体书店的占比仅有17.27%，那么我们占到的消费量最多为120171.919。</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605212550785-16279893074671.png" alt="image-20210605212550785-16279893074671"></p>
-<p>于是，倘如要开书店，我们必须要扩大市场占比，提供更多的服务来满足读书者的需求。询问了广陵学生对于书店的要求，其中有60%的人很希望书店提供读书环境，仅有10.91%的学生完全不在乎；我们深入询问了怎样的环境是十分适合阅读的呢，给出的答案为以下几个为主：优雅的音乐、独立的空间、良好的隔音 和 大量可供阅读的书籍。</p>
-<p>同时为了节约人力成本 和 增加书店功能，我们对于自动打印机的推广做了相关调查。</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221839069-16279816499652.png" alt="image-20210605221839069-16279816499652"></p>
-<p>通过KMO和巴特利特检验，KMO 取样适切性量数0.790并且显著性为0.00，说明适合主成分分析</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221906204-16279816478181.png" alt="image-20210605221906204-16279816478181"></p>
-<p>提取的在和平方和占69.897%，可以接受的范围。</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221906204.png" alt="image-20210605221906204"></p>
-<p>这些都是可以有效描述广陵学院的学生对于自动打印机的认可度。</p>
-<p>可靠性分析：</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221641746.png" alt="image-20210605221641746"></p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221603735.png" alt="image-20210605221603735"></p>
-<p>不需要删除任何一项。</p>
-<p><img data-src="%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/image-20210605221527964.png" alt="image-20210605221527964"></p>
-<p>从分布来看，我们在自动打印机的易用度上还有待提高。</p>
-]]></content>
-      <categories>
-        <category>社科技术</category>
-      </categories>
-      <tags>
-        <tag>市场营销学</tag>
-        <tag>小报告</tag>
-        <tag>数据分析</tag>
       </tags>
   </entry>
   <entry>
