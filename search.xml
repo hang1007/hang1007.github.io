@@ -772,4 +772,16 @@
         <tag>时间序列分析</tag>
       </tags>
   </entry>
+  <entry>
+    <title>this is a test</title>
+    <url>/2022/01/04/this%20is%20a%20test/</url>
+    <content><![CDATA[<h1 id="this-is-a-test"><a href="#this-is-a-test" class="headerlink" title="this is a test"></a>this is a test</h1><h2 id="this-is-a-test-1"><a href="#this-is-a-test-1" class="headerlink" title="this is a test"></a>this is a test</h2><h3 id="this-is-a-test-2"><a href="#this-is-a-test-2" class="headerlink" title="this is a test"></a>this is a test</h3>]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>人工翻译</tag>
+        <tag>考研英语一</tag>
+      </tags>
+  </entry>
 </search>
