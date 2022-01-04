@@ -42,6 +42,19 @@
       </tags>
   </entry>
   <entry>
+    <title>manim移植计划</title>
+    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
+]]></content>
+      <categories>
+        <category>计算机技术</category>
+      </categories>
+      <tags>
+        <tag>代码移植</tag>
+        <tag>代替传统PPT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>language_revamp_needed</title>
     <url>/2021/08/04/language%20revamp%20needed/</url>
     <content><![CDATA[<h1 id="language-revamp-1-needed"><a href="#language-revamp-1-needed" class="headerlink" title="language revamp[^1] needed"></a>language revamp[^1] needed</h1><p>The terminology[^2] used in genetics needs a complete overhaul[^3] to break free from[^4] its problematic[^5] past,says <strong>Adam Rutherford</strong></p>
@@ -57,19 +70,6 @@
         <tag>英文</tag>
         <tag>期刊</tag>
         <tag>全文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>manim移植计划</title>
-    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
-]]></content>
-      <categories>
-        <category>计算机技术</category>
-      </categories>
-      <tags>
-        <tag>代码移植</tag>
-        <tag>代替传统PPT</tag>
       </tags>
   </entry>
   <entry>
@@ -151,6 +151,18 @@
       </tags>
   </entry>
   <entry>
+    <title>this is a test</title>
+    <url>/2022/01/04/this%20is%20a%20test/</url>
+    <content><![CDATA[<h1 id="this-is-a-test"><a href="#this-is-a-test" class="headerlink" title="this is a test"></a>this is a test</h1><h2 id="this-is-a-test-1"><a href="#this-is-a-test-1" class="headerlink" title="this is a test"></a>this is a test</h2><h3 id="this-is-a-test-2"><a href="#this-is-a-test-2" class="headerlink" title="this is a test"></a>this is a test</h3>]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>人工翻译</tag>
+        <tag>考研英语一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于logo设计的想法</title>
     <url>/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h2 id="为什么需要一个博客logo"><a href="#为什么需要一个博客logo" class="headerlink" title="为什么需要一个博客logo"></a>为什么需要一个博客logo</h2><p>​图像总比语言来的印象深刻（更容易），个人的博客需要一个高区别度的logo（有个性哒！）</p>
@@ -186,18 +198,6 @@
       <tags>
         <tag>logo设计</tag>
         <tag>blog美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微积分例题</title>
-    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
@@ -457,8 +457,8 @@
       </tags>
   </entry>
   <entry>
-    <title>数学分析（陈纪修）例题</title>
-    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
+    <title>微积分例题</title>
+    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>自然科学技术</category>
@@ -492,6 +492,18 @@
       <tags>
         <tag>数学分析</tag>
         <tag>大纲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学分析（陈纪修）例题</title>
+    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
@@ -770,18 +782,6 @@
       <tags>
         <tag>数学模型</tag>
         <tag>时间序列分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>this is a test</title>
-    <url>/2022/01/04/this%20is%20a%20test/</url>
-    <content><![CDATA[<h1 id="this-is-a-test"><a href="#this-is-a-test" class="headerlink" title="this is a test"></a>this is a test</h1><h2 id="this-is-a-test-1"><a href="#this-is-a-test-1" class="headerlink" title="this is a test"></a>this is a test</h2><h3 id="this-is-a-test-2"><a href="#this-is-a-test-2" class="headerlink" title="this is a test"></a>this is a test</h3>]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>人工翻译</tag>
-        <tag>考研英语一</tag>
       </tags>
   </entry>
 </search>
