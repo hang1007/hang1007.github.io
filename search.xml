@@ -133,6 +133,24 @@
       </tags>
   </entry>
   <entry>
+    <title>证卷分析</title>
+    <url>/2022/01/03/security_analysis/</url>
+    <content><![CDATA[<h2 id="回归分析"><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2022/01/03/security_analysis/plot01.svg" class title="plot01">
+
+<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2022/01/03/security_analysis/plot02.svg" class title="plot02">
+
+<h3 id="恺英网络-002517-SZ-流通66-42亿"><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2022/01/03/security_analysis/plot03.svg" class title="plot03">
+
+]]></content>
+      <categories>
+        <category>社科技术</category>
+      </categories>
+      <tags>
+        <tag>股票</tag>
+        <tag>金融投资</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于logo设计的想法</title>
     <url>/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h2 id="为什么需要一个博客logo"><a href="#为什么需要一个博客logo" class="headerlink" title="为什么需要一个博客logo"></a>为什么需要一个博客logo</h2><p>​图像总比语言来的印象深刻（更容易），个人的博客需要一个高区别度的logo（有个性哒！）</p>
@@ -168,24 +186,6 @@
       <tags>
         <tag>logo设计</tag>
         <tag>blog美化</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>证卷分析</title>
-    <url>/2022/01/03/security_analysis/</url>
-    <content><![CDATA[<h2 id="回归分析"><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2022/01/03/security_analysis/plot01.svg" class title="plot01">
-
-<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2022/01/03/security_analysis/plot02.svg" class title="plot02">
-
-<h3 id="恺英网络-002517-SZ-流通66-42亿"><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2022/01/03/security_analysis/plot03.svg" class title="plot03">
-
-]]></content>
-      <categories>
-        <category>社科技术</category>
-      </categories>
-      <tags>
-        <tag>股票</tag>
-        <tag>金融投资</tag>
       </tags>
   </entry>
   <entry>
@@ -483,6 +483,18 @@
       </tags>
   </entry>
   <entry>
+    <title>数学分析（陈纪修）例题</title>
+    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据分析</title>
     <url>/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<h2 id="数据清洗"><a href="#数据清洗" class="headerlink" title="数据清洗"></a>数据清洗</h2><p>去除用时过短地数据和用时过长的数据，最终获取到了110份有效的问卷。</p>
@@ -523,18 +535,6 @@
         <tag>市场营销学</tag>
         <tag>小报告</tag>
         <tag>数据分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学分析（陈纪修）例题</title>
-    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
