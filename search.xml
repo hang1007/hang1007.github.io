@@ -60,6 +60,19 @@
       </tags>
   </entry>
   <entry>
+    <title>manim移植计划</title>
+    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
+]]></content>
+      <categories>
+        <category>计算机技术</category>
+      </categories>
+      <tags>
+        <tag>代码移植</tag>
+        <tag>代替传统PPT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python代码行解释</title>
     <url>/2022/01/03/python%E4%BB%A3%E7%A0%81%E8%A1%8C%E8%A7%A3%E9%87%8A/</url>
     <content><![CDATA[<h2 id="预加载可能用到的模块"><a href="#预加载可能用到的模块" class="headerlink" title="预加载可能用到的模块"></a>预加载可能用到的模块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import operator as op</span><br><span class="line">from math import log</span><br></pre></td></tr></table></figure>
@@ -120,19 +133,6 @@
       </tags>
   </entry>
   <entry>
-    <title>manim移植计划</title>
-    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
-]]></content>
-      <categories>
-        <category>计算机技术</category>
-      </categories>
-      <tags>
-        <tag>代码移植</tag>
-        <tag>代替传统PPT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>证卷分析</title>
     <url>/2022/01/03/security_analysis/</url>
     <content><![CDATA[<h2 id="回归分析"><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2022/01/03/security_analysis/plot01.svg" class title="plot01">
@@ -186,6 +186,18 @@
       <tags>
         <tag>logo设计</tag>
         <tag>blog美化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微积分例题</title>
+    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
@@ -445,8 +457,8 @@
       </tags>
   </entry>
   <entry>
-    <title>微积分例题</title>
-    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
+    <title>数学分析（陈纪修）例题</title>
+    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>自然科学技术</category>
@@ -480,18 +492,6 @@
       <tags>
         <tag>数学分析</tag>
         <tag>大纲</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学分析（陈纪修）例题</title>
-    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
