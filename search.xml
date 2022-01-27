@@ -31,6 +31,19 @@
       </tags>
   </entry>
   <entry>
+    <title>manim移植计划</title>
+    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
+]]></content>
+      <categories>
+        <category>计算机技术</category>
+      </categories>
+      <tags>
+        <tag>代码移植</tag>
+        <tag>代替传统PPT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>单词整理</title>
     <url>/2022/01/04/Strange%20words%20summary/</url>
     <content><![CDATA[<h1 id="单词整理"><a href="#单词整理" class="headerlink" title="单词整理"></a>单词整理</h1><h2 id="英一翻译中单词"><a href="#英一翻译中单词" class="headerlink" title="英一翻译中单词"></a>英一翻译中单词</h2><h3 id="2002-Text-1"><a href="#2002-Text-1" class="headerlink" title="2002 Text 1"></a>2002 Text 1</h3><p><strong>audience</strong>: The audience at a play,concert,film,or public meeting is the group of people watching or listening to it. 观众；听众    The audience of a writer or artist is the people who read their books  or look at their work. 读者</p>
@@ -117,19 +130,6 @@
       <tags>
         <tag>python</tag>
         <tag>代码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>manim移植计划</title>
-    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<h1 id="动画生成器"><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
-]]></content>
-      <categories>
-        <category>计算机技术</category>
-      </categories>
-      <tags>
-        <tag>代码移植</tag>
-        <tag>代替传统PPT</tag>
       </tags>
   </entry>
   <entry>
@@ -457,18 +457,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数学分析（陈纪修）例题</title>
-    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学分析大纲</title>
     <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/</url>
     <content><![CDATA[<h1 id="绪论-实数"><a href="#绪论-实数" class="headerlink" title="绪论 实数"></a>绪论 实数</h1><h2 id="有理数域"><a href="#有理数域" class="headerlink" title="有理数域"></a>有理数域</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>读者学数学一定要有耐心！</p>
@@ -492,6 +480,18 @@
       <tags>
         <tag>数学分析</tag>
         <tag>大纲</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学分析（陈纪修）例题</title>
+    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
