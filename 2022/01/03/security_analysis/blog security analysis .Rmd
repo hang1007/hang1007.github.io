@@ -32,7 +32,6 @@ library(colorspace)
 library(showtext)
 showtext_auto()
 library(tidyverse)
-library('Tushare')
 api <-  Tushare::pro_api(token = "d9bd8804edd9358e4d8b1a5b14ebcb98439c47468fa8595bb7e90457")
 datesys <- format(Sys.Date(), "%Y%m%d")
 #SH_688981$close <-  as.factor(SH_688981$close)
@@ -87,17 +86,17 @@ ggsave("plot03.svg", device = "svg", width = 10, height = 4)
 ```
 
 ```{r}
-# library(reticulate)  # 导入 reticulate 包
+library(reticulate)  # 导入 reticulate 包
 # use_python("F:/Program Files/anaconda/python.exe")  # 其中的 king 为本地电脑用户名
 # use_condaenv(condaenv="ak_test", required = TRUE)  # 也可以使用 conda 创建的虚拟环境，其中的 ak_test 为虚拟环境名称
-# ak <- import("akshare")  # 类似于 import akshare as ak
-# stock_df <- ak$stock_em_yysj(date="20200331")  # 类似于 ak.stock_em_yysj(date="20200331")
-# print(stock_df)  # 查看数据
+ak <- import("akshare")  # 类似于 import akshare as ak
+stock_df <- ak$get_roll_yield_bar(type_method="date", var="RB", start_day="20180618", end_day="20180718")  # 类似于 ak.stock_em_yysj(date="20200331")
+# view(stock_df)  # 查看数据
 ```
 
 ```{python}
 import akshare as ak
 
-get_roll_yield_bar_df = ak.get_roll_yield_bar(type_method="date", var="RB", start_day="20180618", end_day="20180718", plot=False)
+get_roll_yield_bar_df = ak.get_roll_yield_bar(type_method="date", var="RB", start_day="20180618", end_day="20180718")
 print(get_roll_yield_bar_df)
 ```
