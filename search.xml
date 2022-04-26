@@ -484,6 +484,35 @@
       </tags>
   </entry>
   <entry>
+    <title>等价无穷小什么时候用，什么时候不能用？</title>
+    <url>/2021/08/21/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8%EF%BC%8C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%B8%8D%E8%83%BD%E7%94%A8%EF%BC%9F/</url>
+    <content><![CDATA[<p><strong>先说结论：整体乘除可换，加减有的凑巧可以，有的不行。</strong></p>
+<p>加减成立的条件较麻烦 最后放</p>
+<p>一般求极限就乘除用等价无穷小代换。加减的用洛必达法则，泰勒公式或者凑等价无穷小。（推荐前二，因为不会凑就凑错了。。。</p>
+<p>最推荐泰勒 因为你能用别的做法做的，泰勒基本都能做 泰勒不能做的，另两个也做不了；所谓 “你皮任你皮，我用泰勒展”。举个栗子 例子及解析出自李永乐 6+2 讲解</p>
+<p><img data-src="https://pic2.zhimg.com/v2-15b9cf65a0e91008d27b39c7938412fa_r.jpg?source=1940ef5c"></p>
+<p>这个题理论上可用洛必达 泰勒 拆开用等价无穷小</p>
+<p>洛必达很复杂 不推荐</p>
+<p>泰勒展开留给读者自作</p>
+<p>重点说拆开利用等价无穷小的 通分然后利用等价无穷小换分母 再加一项减一项 x∧2（为什么要加一减一呢？后面讲）随后如下</p>
+<p><img data-src="https://pic1.zhimg.com/v2-b4f13a3b1bfafa835382da579d453cbe_r.jpg?source=1940ef5c"></p>
+<p>很多同学这时候可能有疑问不是不能乱拆么？没错确实不能乱拆</p>
+<p>但是这里可以 用的极限是四则运算里的加法 但注意加法成立条件是两个极限都存在 这里就体现了加一减一的作用 不加一减一直接拆 两个极限都不存在不能用极限加法</p>
+<p>最后补充加减成立的条件</p>
+<p><img data-src="https://pic1.zhimg.com/v2-2b665a49aeb0856e76c3b094d45c20c9_r.jpg?source=1940ef5c"></p>
+<p>论文全文如下：</p>
+<p><img data-src="https://pic1.zhimg.com/v2-8c011c0a6c68c0a2b63121bbbdfe9177_r.jpg?source=1940ef5c"><img data-src="https://pic2.zhimg.com/v2-4503549eadd86ef6043eaa8aff4cf7f8_r.jpg?source=1940ef5c"></p>
+<p>可以参考下 <a href="https://zhuanlan.zhihu.com/p/133508725">https://zhuanlan.zhihu.com/p/133508725</a>，保证受益匪浅。</p>
+]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>微积分学</tag>
+        <tag>小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据分析</title>
     <url>/2022/01/03/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<h2 id="数据清洗"><a href="#数据清洗" class="headerlink" title="数据清洗"></a>数据清洗</h2><p>去除用时过短地数据和用时过长的数据，最终获取到了110份有效的问卷。</p>
@@ -524,35 +553,6 @@
         <tag>市场营销学</tag>
         <tag>小报告</tag>
         <tag>数据分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>等价无穷小什么时候用，什么时候不能用？</title>
-    <url>/2021/08/21/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8%EF%BC%8C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%B8%8D%E8%83%BD%E7%94%A8%EF%BC%9F/</url>
-    <content><![CDATA[<p><strong>先说结论：整体乘除可换，加减有的凑巧可以，有的不行。</strong></p>
-<p>加减成立的条件较麻烦 最后放</p>
-<p>一般求极限就乘除用等价无穷小代换。加减的用洛必达法则，泰勒公式或者凑等价无穷小。（推荐前二，因为不会凑就凑错了。。。</p>
-<p>最推荐泰勒 因为你能用别的做法做的，泰勒基本都能做 泰勒不能做的，另两个也做不了；所谓 “你皮任你皮，我用泰勒展”。举个栗子 例子及解析出自李永乐 6+2 讲解</p>
-<p><img data-src="https://pic2.zhimg.com/v2-15b9cf65a0e91008d27b39c7938412fa_r.jpg?source=1940ef5c"></p>
-<p>这个题理论上可用洛必达 泰勒 拆开用等价无穷小</p>
-<p>洛必达很复杂 不推荐</p>
-<p>泰勒展开留给读者自作</p>
-<p>重点说拆开利用等价无穷小的 通分然后利用等价无穷小换分母 再加一项减一项 x∧2（为什么要加一减一呢？后面讲）随后如下</p>
-<p><img data-src="https://pic1.zhimg.com/v2-b4f13a3b1bfafa835382da579d453cbe_r.jpg?source=1940ef5c"></p>
-<p>很多同学这时候可能有疑问不是不能乱拆么？没错确实不能乱拆</p>
-<p>但是这里可以 用的极限是四则运算里的加法 但注意加法成立条件是两个极限都存在 这里就体现了加一减一的作用 不加一减一直接拆 两个极限都不存在不能用极限加法</p>
-<p>最后补充加减成立的条件</p>
-<p><img data-src="https://pic1.zhimg.com/v2-2b665a49aeb0856e76c3b094d45c20c9_r.jpg?source=1940ef5c"></p>
-<p>论文全文如下：</p>
-<p><img data-src="https://pic1.zhimg.com/v2-8c011c0a6c68c0a2b63121bbbdfe9177_r.jpg?source=1940ef5c"><img data-src="https://pic2.zhimg.com/v2-4503549eadd86ef6043eaa8aff4cf7f8_r.jpg?source=1940ef5c"></p>
-<p>可以参考下 <a href="https://zhuanlan.zhihu.com/p/133508725">https://zhuanlan.zhihu.com/p/133508725</a>，保证受益匪浅。</p>
-]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>微积分学</tag>
-        <tag>小技巧</tag>
       </tags>
   </entry>
   <entry>
