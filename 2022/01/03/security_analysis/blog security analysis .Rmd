@@ -90,8 +90,7 @@ library(reticulate)  # 导入 reticulate 包
 # use_python("F:/Program Files/anaconda/python.exe")  # 其中的 king 为本地电脑用户名
 # use_condaenv(condaenv="ak_test", required = TRUE)  # 也可以使用 conda 创建的虚拟环境，其中的 ak_test 为虚拟环境名称
 ak <- import("akshare")  # 类似于 import akshare as ak
-stock_df <- ak$get_roll_yield_bar(type_method="date", var="RB", start_day="20180618", end_day="20180718")  # 类似于 ak.stock_em_yysj(date="20200331")
-# view(stock_df)  # 查看数据
+stock_df <- ak$stock_zh_a_hist()
 ```
 
 ```{python}
