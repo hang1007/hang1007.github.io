@@ -223,7 +223,7 @@ body {
   color: var(--text-color);
   font-family: Noto Serif SC, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1em;
-  line-height: 2;
+  line-height: 1.5;
   min-height: 100%;
   position: relative;
   transition: padding 0.2s ease-in-out;
@@ -604,7 +604,7 @@ pre {
 }
 figure.highlight,
 pre {
-  line-height: 1.6;
+  line-height: 2;
   margin: 0 auto 20px;
 }
 figure.highlight figcaption,
@@ -1507,7 +1507,7 @@ pre code {
   background: transparent;
   color: #fc6423;
   cursor: pointer;
-  line-height: 2;
+  line-height: 1.6;
   padding: 0 15px;
   border: 1px solid #fc6423;
   border-radius: 4px;
@@ -2365,7 +2365,7 @@ pre code {
   background: transparent;
   color: #fc6423;
   cursor: pointer;
-  line-height: 2;
+  line-height: 1.6;
   padding: 0 15px;
   border: 2px solid #fc6423;
   border-radius: 2px;
