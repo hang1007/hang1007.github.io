@@ -155,6 +155,24 @@
       </tags>
   </entry>
   <entry>
+    <title>证卷分析</title>
+    <url>/2022/01/03/security_analysis/</url>
+    <content><![CDATA[<h2 id="回归分析"><span class="post-title-index">1. </span><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><span class="post-title-index">1.1. </span><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2022/01/03/security_analysis/plot01.svg" class title="plot01">
+
+<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><span class="post-title-index">1.2. </span><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2022/01/03/security_analysis/plot02.svg" class title="plot02">
+
+<h3 id="恺英网络-002517-SZ-流通66-42亿"><span class="post-title-index">1.3. </span><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2022/01/03/security_analysis/plot03.svg" class title="plot03">
+
+]]></content>
+      <categories>
+        <category>社科技术</category>
+      </categories>
+      <tags>
+        <tag>股票</tag>
+        <tag>金融投资</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python代码行解释</title>
     <url>/2022/01/03/python%E4%BB%A3%E7%A0%81%E8%A1%8C%E8%A7%A3%E9%87%8A/</url>
     <content><![CDATA[<h2 id="预加载可能用到的模块"><span class="post-title-index">1. </span><a href="#预加载可能用到的模块" class="headerlink" title="预加载可能用到的模块"></a>预加载可能用到的模块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import operator as op</span><br><span class="line">from math import log</span><br></pre></td></tr></table></figure>
@@ -215,24 +233,6 @@
       </tags>
   </entry>
   <entry>
-    <title>证卷分析</title>
-    <url>/2022/01/03/security_analysis/</url>
-    <content><![CDATA[<h2 id="回归分析"><span class="post-title-index">1. </span><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><span class="post-title-index">1.1. </span><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2022/01/03/security_analysis/plot01.svg" class title="plot01">
-
-<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><span class="post-title-index">1.2. </span><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2022/01/03/security_analysis/plot02.svg" class title="plot02">
-
-<h3 id="恺英网络-002517-SZ-流通66-42亿"><span class="post-title-index">1.3. </span><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2022/01/03/security_analysis/plot03.svg" class title="plot03">
-
-]]></content>
-      <categories>
-        <category>社科技术</category>
-      </categories>
-      <tags>
-        <tag>股票</tag>
-        <tag>金融投资</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于logo设计的想法</title>
     <url>/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/</url>
     <content><![CDATA[<h2 id="为什么需要一个博客logo"><span class="post-title-index">1. </span><a href="#为什么需要一个博客logo" class="headerlink" title="为什么需要一个博客logo"></a>为什么需要一个博客logo</h2><p>图像总比语言来的印象深刻（更容易），个人的博客需要一个高区别度的logo（有个性哒！）</p>
@@ -258,6 +258,41 @@
       <tags>
         <tag>logo设计</tag>
         <tag>blog美化</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大二宏观经济学复习</title>
+    <url>/2022/07/24/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%A1%A5%E8%80%83%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/</url>
+    <content><![CDATA[<h2 id="词语解释"><span class="post-title-index">1. </span><a href="#词语解释" class="headerlink" title="词语解释"></a>词语解释</h2><ol>
+<li><strong>国内生产总值（GDP）</strong>：指在一定时期内，在一国（或地区）境内生产的所有最终产品与服务的市场价值总和。</li>
+<li><strong>边际消费倾向</strong>：每增加的1单位可支配收入中，用于增加消费的部分所占的比率，也就是增加的消费额与增加的可支配收入额之比，叫作 边际消费倾向（记作MPC）。</li>
+<li><strong>货币需求</strong>：货币需求就是人们在不同条件下出于各种考虑而愿意持有一定数量的货币的需求。</li>
+<li><strong>自动稳定器</strong>：是经济系统本身存在的一种减少对国民收入冲击和干扰的机制。</li>
+<li><strong>短期菲利普斯曲线</strong>：是表示通货膨胀率与失业率之间存在负相关的曲线。</li>
+<li><strong>需求推动型通货膨胀</strong>：即社会总需求超过总供给所引起的一般物价水平的持续显著的上涨。</li>
+<li><strong>存款准备金</strong>：金融机构为保证各户提取存款和资本清单需要而准备在中央银行的存款。</li>
+<li><strong>流动偏好</strong>：指人们持有货币的偏好，也就是人们对货币的需求。</li>
+<li><strong>投机性货币需求</strong>：人们持有货币是为了在金融市场上抓住购买有价货币的有利机会。</li>
+<li><strong>奥肯定律</strong>：在经济周期中，失业与产出之间存在反向变动的关系。</li>
+<li><strong>成本推移型通货膨胀</strong>：通货膨胀源于总供给的变化。</li>
+<li><strong>自然失业率</strong>：充分就业情况下的失业率被称为自然失业率。</li>
+<li><strong>投资乘数</strong>：国民收入的变化量和带来这种变化的初始资金支出的比率。</li>
+<li><strong>功能财政</strong>：是指国民关于财政活动不能仅以预算平衡为目的，而应以充分发挥财政职能，保证整个经济稳定发展为目的的理论。</li>
+<li><strong>资本的边界效率</strong>：是一种贴现率，这种贴现率正好使一项资本品在使用期内各预算收益的现值之和等于这项资本的供给价格或重置成本。</li>
+<li><strong>挤出效应</strong>：是指由于政府支出增加所引起的私人消费火投资降低的效果。</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>微积分例题</title>
+    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
@@ -506,18 +541,6 @@
       </tags>
   </entry>
   <entry>
-    <title>微积分例题</title>
-    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学分析大纲</title>
     <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/</url>
     <content><![CDATA[<h1 id="绪论-实数"><span class="post-title-index">1. </span><a href="#绪论-实数" class="headerlink" title="绪论 实数"></a>绪论 实数</h1><h2 id="有理数域"><span class="post-title-index">1.1. </span><a href="#有理数域" class="headerlink" title="有理数域"></a>有理数域</h2><h3 id="前言"><span class="post-title-index">1.1.1. </span><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>读者学数学一定要有耐心！</p>
@@ -553,35 +576,6 @@
       <tags>
         <tag>数学分析</tag>
         <tag>例题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>等价无穷小什么时候用，什么时候不能用？</title>
-    <url>/2021/08/21/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8%EF%BC%8C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%B8%8D%E8%83%BD%E7%94%A8%EF%BC%9F/</url>
-    <content><![CDATA[<p><strong>先说结论：整体乘除可换，加减有的凑巧可以，有的不行。</strong></p>
-<p>加减成立的条件较麻烦 最后放</p>
-<p>一般求极限就乘除用等价无穷小代换。加减的用洛必达法则，泰勒公式或者凑等价无穷小。（推荐前二，因为不会凑就凑错了。。。</p>
-<p>最推荐泰勒 因为你能用别的做法做的，泰勒基本都能做 泰勒不能做的，另两个也做不了；所谓 “你皮任你皮，我用泰勒展”。举个栗子 例子及解析出自李永乐 6+2 讲解</p>
-<p><img data-src="https://pic2.zhimg.com/v2-15b9cf65a0e91008d27b39c7938412fa_r.jpg?source=1940ef5c"></p>
-<p>这个题理论上可用洛必达 泰勒 拆开用等价无穷小</p>
-<p>洛必达很复杂 不推荐</p>
-<p>泰勒展开留给读者自作</p>
-<p>重点说拆开利用等价无穷小的 通分然后利用等价无穷小换分母 再加一项减一项 x∧2（为什么要加一减一呢？后面讲）随后如下</p>
-<p><img data-src="https://pic1.zhimg.com/v2-b4f13a3b1bfafa835382da579d453cbe_r.jpg?source=1940ef5c"></p>
-<p>很多同学这时候可能有疑问不是不能乱拆么？没错确实不能乱拆</p>
-<p>但是这里可以 用的极限是四则运算里的加法 但注意加法成立条件是两个极限都存在 这里就体现了加一减一的作用 不加一减一直接拆 两个极限都不存在不能用极限加法</p>
-<p>最后补充加减成立的条件</p>
-<p><img data-src="https://pic1.zhimg.com/v2-2b665a49aeb0856e76c3b094d45c20c9_r.jpg?source=1940ef5c"></p>
-<p>论文全文如下：</p>
-<p><img data-src="https://pic1.zhimg.com/v2-8c011c0a6c68c0a2b63121bbbdfe9177_r.jpg?source=1940ef5c"><img data-src="https://pic2.zhimg.com/v2-4503549eadd86ef6043eaa8aff4cf7f8_r.jpg?source=1940ef5c"></p>
-<p>可以参考下 <a href="https://zhuanlan.zhihu.com/p/133508725">https://zhuanlan.zhihu.com/p/133508725</a>，保证受益匪浅。</p>
-]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>微积分学</tag>
-        <tag>小技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -628,6 +622,35 @@
       </tags>
   </entry>
   <entry>
+    <title>等价无穷小什么时候用，什么时候不能用？</title>
+    <url>/2021/08/21/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E7%94%A8%EF%BC%8C%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E4%B8%8D%E8%83%BD%E7%94%A8%EF%BC%9F/</url>
+    <content><![CDATA[<p><strong>先说结论：整体乘除可换，加减有的凑巧可以，有的不行。</strong></p>
+<p>加减成立的条件较麻烦 最后放</p>
+<p>一般求极限就乘除用等价无穷小代换。加减的用洛必达法则，泰勒公式或者凑等价无穷小。（推荐前二，因为不会凑就凑错了。。。</p>
+<p>最推荐泰勒 因为你能用别的做法做的，泰勒基本都能做 泰勒不能做的，另两个也做不了；所谓 “你皮任你皮，我用泰勒展”。举个栗子 例子及解析出自李永乐 6+2 讲解</p>
+<p><img data-src="https://pic2.zhimg.com/v2-15b9cf65a0e91008d27b39c7938412fa_r.jpg?source=1940ef5c"></p>
+<p>这个题理论上可用洛必达 泰勒 拆开用等价无穷小</p>
+<p>洛必达很复杂 不推荐</p>
+<p>泰勒展开留给读者自作</p>
+<p>重点说拆开利用等价无穷小的 通分然后利用等价无穷小换分母 再加一项减一项 x∧2（为什么要加一减一呢？后面讲）随后如下</p>
+<p><img data-src="https://pic1.zhimg.com/v2-b4f13a3b1bfafa835382da579d453cbe_r.jpg?source=1940ef5c"></p>
+<p>很多同学这时候可能有疑问不是不能乱拆么？没错确实不能乱拆</p>
+<p>但是这里可以 用的极限是四则运算里的加法 但注意加法成立条件是两个极限都存在 这里就体现了加一减一的作用 不加一减一直接拆 两个极限都不存在不能用极限加法</p>
+<p>最后补充加减成立的条件</p>
+<p><img data-src="https://pic1.zhimg.com/v2-2b665a49aeb0856e76c3b094d45c20c9_r.jpg?source=1940ef5c"></p>
+<p>论文全文如下：</p>
+<p><img data-src="https://pic1.zhimg.com/v2-8c011c0a6c68c0a2b63121bbbdfe9177_r.jpg?source=1940ef5c"><img data-src="https://pic2.zhimg.com/v2-4503549eadd86ef6043eaa8aff4cf7f8_r.jpg?source=1940ef5c"></p>
+<p>可以参考下 <a href="https://zhuanlan.zhihu.com/p/133508725">https://zhuanlan.zhihu.com/p/133508725</a>，保证受益匪浅。</p>
+]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>微积分学</tag>
+        <tag>小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网站学习设计</title>
     <url>/2021/08/10/%E7%BD%91%E7%AB%99%E5%AD%A6%E4%B9%A0%E8%AE%BE%E8%AE%A1/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="输入错误密码，应该是： hello   才对！" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -667,29 +690,6 @@
 <p>心急火燎的去论证中国古代文明并没有被高估，而且还很伟大，并不厌其烦的去找出一切蛛丝马迹去论证这种伟大，实际上和不厌其烦的从一切蛛丝马迹中去寻找衰微的原因本质上是同一种思维方式的两种表现形式，历史本身已经证明这是无用的。</p>
 <p>至于中国古代文明究竟是被高估还是低估，与其现在高强度辩经（你辩了别人也听不到），不如设法进一步强大起来，等到中国再度肇纪御极，统摄八方之后，自有那些妙笔生花口吐白莲之人，去论证你的历史是何等的伟大。</p>
 <p>他们可以做的比你更好。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>宏观经济学大二复习</title>
-    <url>/2022/07/24/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%A1%A5%E8%80%83%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/</url>
-    <content><![CDATA[<h2 id="词语解释"><span class="post-title-index">1. </span><a href="#词语解释" class="headerlink" title="词语解释"></a>词语解释</h2><ol>
-<li><strong>国内生产总值（GDP）</strong>：指在一定时期内，在一国（或地区）境内生产的所有最终产品与服务的市场价值总和。</li>
-<li><strong>边际消费倾向</strong>：每增加的1单位可支配收入中，用于增加消费的部分所占的比率，也就是增加的消费额与增加的可支配收入额之比，叫作 边际消费倾向（记作MPC）。</li>
-<li><strong>货币需求</strong>：货币需求就是人们在不同条件下出于各种考虑而愿意持有一定数量的货币的需求。</li>
-<li><strong>自动稳定器</strong>：是经济系统本身存在的一种减少对国民收入冲击和干扰的机制。</li>
-<li><strong>短期菲利普斯曲线</strong>：是表示通货膨胀率与失业率之间存在负相关的曲线。</li>
-<li><strong>需求推动型通货膨胀</strong>：即社会总需求超过总供给所引起的一般物价水平的持续显著的上涨。</li>
-<li><strong>存款准备金</strong>：金融机构为保证各户提取存款和资本清单需要而准备在中央银行的存款。</li>
-<li><strong>流动偏好</strong>：指人们持有货币的偏好，也就是人们对货币的需求。</li>
-<li><strong>投机性货币需求</strong>：人们持有货币是为了在金融市场上抓住购买有价货币的有利机会。</li>
-<li><strong>奥肯定律</strong>：在经济周期中，失业与产出之间存在反向变动的关系。</li>
-<li><strong>成本推移型通货膨胀</strong>：通货膨胀源于总供给的变化。</li>
-<li><strong>自然失业率</strong>：充分就业情况下的失业率被称为自然失业率。</li>
-<li><strong>投资乘数</strong>：国民收入的变化量和带来这种变化的初始资金支出的比率。</li>
-<li><strong>功能财政</strong>：是指国民关于财政活动不能仅以预算平衡为目的，而应以充分发挥财政职能，保证整个经济稳定发展为目的的理论。</li>
-<li><strong>资本的边界效率</strong>：是一种贴现率，这种贴现率正好使一项资本品在使用期内各预算收益的现值之和等于这项资本的供给价格或重置成本。</li>
-<li><strong>挤出效应</strong>：是指由于政府支出增加所引起的私人消费火投资降低的效果。</li>
-</ol>
 ]]></content>
   </entry>
 </search>
