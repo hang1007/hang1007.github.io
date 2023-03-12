@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)">
+<meta name="generator" content="Hexo 6.0.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/96x96.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/96x96.png">
+  <link rel="mask-icon" href="/images/96x96.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CCascadia+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.9.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":true,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true}}</script><script src="/js/config.js"></script>
+<meta name="description" content="1   绪论 实数1.1   有理数域1.1.1   前言">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数学分析大纲">
+<meta property="og:url" content="http://example.com/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/index.html">
+<meta property="og:site_name" content="Antigore&#39;s Blog">
+<meta property="og:description" content="1   绪论 实数1.1   有理数域1.1.1   前言">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-08-09T02:51:04.000Z">
+<meta property="article:modified_time" content="2021-09-21T05:49:29.945Z">
+<meta property="article:author" content="安提戈尔">
+<meta property="article:tag" content="数学分析">
+<meta property="article:tag" content="大纲">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/","path":"2021/08/09/数学分析大纲-1/","title":"数学分析大纲"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>数学分析大纲 | Antigore's Blog</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Antigore's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">保持健康，保持学习，保持快乐!</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">23</span></a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">5</span></a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">17</span></a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%AA%E8%AE%BA-%E5%AE%9E%E6%95%B0"><span class="nav-text">1   绪论 实数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%89%E7%90%86%E6%95%B0%E5%9F%9F"><span class="nav-text">1.1   有理数域</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-text">1.1.1   前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E7%90%86%E6%95%B0%E5%9F%9F%E7%9A%84%E5%BA%8F"><span class="nav-text">1.1.2   有理数域的序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E7%90%86%E6%95%B0%E7%9A%84%E5%8A%A0%E6%B3%95%E5%8F%8A%E5%87%8F%E6%B3%95"><span class="nav-text">1.1.3   有理数的加法及减法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%89%E7%90%86%E6%95%B0%E7%9A%84%E4%B9%98%E6%B3%95%E5%8F%8A%E9%99%A4%E6%B3%95"><span class="nav-text">1.1.4   有理数的乘法及除法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E5%85%AC%E7%90%86"><span class="nav-text">1.1.5   阿基米德公理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%A0%E7%90%86%E6%95%B0%E3%80%81%E5%AE%9E%E6%95%B0"><span class="nav-text">1.2   无理数、实数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%97%A0%E7%90%86%E6%95%B0%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="nav-text">1.2.1   无理数的定义</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%AA%E8%AE%BA%E5%A4%AA%E9%9A%BE%E5%95%A6%EF%BC%8C%E7%9B%B4%E6%8E%A5%E7%9C%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%E5%90%A7"><span class="nav-text">1.3   绪论太难啦，直接看第一章吧</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%9E%81%E9%99%90%E8%AE%BA"><span class="nav-text">2   第一章 极限论</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B4%E5%BA%8F%E5%8F%98%E9%87%8F%E5%8F%8A%E5%85%B6%E6%9E%81%E9%99%90"><span class="nav-text">2.1   整序变量及其极限</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%98%E9%87%8F%E3%80%81%E6%95%B4%E5%BA%8F%E5%8F%98%E9%87%8F"><span class="nav-text">2.1.1   变量、整序变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B4%E5%BA%8F%E6%95%B0%E5%88%97%E7%9A%84%E6%9E%81%E9%99%90"><span class="nav-text">2.1.2   整序数列的极限</span></a></li></ol></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="安提戈尔"
+      src="/images/cat.png">
+  <p class="site-author-name" itemprop="name">安提戈尔</p>
+  <div class="site-description" itemprop="description">这是我用来分享学习生活的地方</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">23</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="http://picture.antigore.cn/img/zhouyuhangtc@ciloud.com.png" title="E-Mail → http:&#x2F;&#x2F;picture.antigore.cn&#x2F;img&#x2F;zhouyuhangtc@ciloud.com.png" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="http://picture.antigore.cn/img/20220724_105816000_iOS.jpg" title="QQ → http:&#x2F;&#x2F;picture.antigore.cn&#x2F;img&#x2F;20220724_105816000_iOS.jpg" rel="noopener" target="_blank">QQ</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/cat.png">
+      <meta itemprop="name" content="安提戈尔">
+      <meta itemprop="description" content="这是我用来分享学习生活的地方">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Antigore's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          数学分析大纲
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-08-09 10:51:04" itemprop="dateCreated datePublished" datetime="2021-08-09T10:51:04+08:00">2021-08-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-09-21 13:49:29" itemprop="dateModified" datetime="2021-09-21T13:49:29+08:00">2021-09-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">自然科学技术</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>548</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="绪论-实数"><span class="post-title-index">1   </span><a href="#绪论-实数" class="headerlink" title="绪论 实数"></a>绪论 实数</h1><h2 id="有理数域"><span class="post-title-index">1.1   </span><a href="#有理数域" class="headerlink" title="有理数域"></a>有理数域</h2><h3 id="前言"><span class="post-title-index">1.1.1   </span><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>读者学数学一定要有耐心！</p>
+<h3 id="有理数域的序"><span class="post-title-index">1.1.2   </span><a href="#有理数域的序" class="headerlink" title="有理数域的序"></a>有理数域的序</h3><ol>
+<li>数与数的关系无非大于、小于、等于。</li>
+<li>数与数与数与数…之间的关系可以传递。</li>
+<li>任意不相等的两个数必有一个中间值。</li>
+</ol>
+<h3 id="有理数的加法及减法"><span class="post-title-index">1.1.3   </span><a href="#有理数的加法及减法" class="headerlink" title="有理数的加法及减法"></a>有理数的加法及减法</h3><p>结合律、交换律（不证明啦）</p>
+<h3 id="有理数的乘法及除法"><span class="post-title-index">1.1.4   </span><a href="#有理数的乘法及除法" class="headerlink" title="有理数的乘法及除法"></a>有理数的乘法及除法</h3><p>（￣︶￣）↗　易证明</p>
+<h3 id="阿基米德公理"><span class="post-title-index">1.1.5   </span><a href="#阿基米德公理" class="headerlink" title="阿基米德公理"></a>阿基米德公理</h3><p>对于任意$c&gt;0$​总有大于$c$的自然数$n$存在在。</p>
+<h2 id="无理数、实数"><span class="post-title-index">1.2   </span><a href="#无理数、实数" class="headerlink" title="无理数、实数"></a>无理数、实数</h2><h3 id="无理数的定义"><span class="post-title-index">1.2.1   </span><a href="#无理数的定义" class="headerlink" title="无理数的定义"></a>无理数的定义</h3><p>我们将有理数全体划分成两组（任意一个有理数必须在其中一个），那么对于任意一种划分，其界限所在的数（界数）是无理数。</p>
+<p>那~无理数是不是也可以这样创造新的数呢？我也没懂，哈哈哈，但是！咱先来整理已有的数域，有理数域+无理数域=实数域。</p>
+<h2 id="绪论太难啦，直接看第一章吧"><span class="post-title-index">1.3   </span><a href="#绪论太难啦，直接看第一章吧" class="headerlink" title="绪论太难啦，直接看第一章吧"></a>绪论太难啦，直接看第一章吧</h2><h1 id="第一章-极限论"><span class="post-title-index">2   </span><a href="#第一章-极限论" class="headerlink" title="第一章 极限论"></a>第一章 极限论</h1><h2 id="整序变量及其极限"><span class="post-title-index">2.1   </span><a href="#整序变量及其极限" class="headerlink" title="整序变量及其极限"></a>整序变量及其极限</h2><h3 id="变量、整序变量"><span class="post-title-index">2.1.1   </span><a href="#变量、整序变量" class="headerlink" title="变量、整序变量"></a>变量、整序变量</h3><p>在自然科学内常常遇到各种不同的量，任一种量，按照不同情况，有时具有不同的值，有时仅取一值。前者叫变量，后者叫常量。</p>
+<p>序列：$1,2,3,…,n,…,n’,…$<br>整序数列：$x_1,x_2,…,x_n,…,x_{n’},…$​​</p>
+<h3 id="整序数列的极限"><span class="post-title-index">2.1.2   </span><a href="#整序数列的极限" class="headerlink" title="整序数列的极限"></a>整序数列的极限</h3><p>若对于每一个正数$\varepsilon$,无论它怎样小，恒有序号$N$，是的$n&gt;N$时，一切$x_n$的值满足不等式<br>$$<br>|x_n-a|&lt;\varepsilon<br>$$<br>则常数$a$称为<strong>整数变量$x=x_n$​的极限</strong>。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/" rel="tag"><i class="fa fa-tag"></i> 数学分析</a>
+              <a href="/tags/%E5%A4%A7%E7%BA%B2/" rel="tag"><i class="fa fa-tag"></i> 大纲</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/08/07/%E5%85%B3%E4%BA%8Elogo%E8%AE%BE%E8%AE%A1%E7%9A%84%E6%83%B3%E6%B3%95/" rel="prev" title="关于logo设计的想法">
+                  <i class="fa fa-chevron-left"></i> 关于logo设计的想法
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/" rel="next" title="微积分例题">
+                  微积分例题 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">安提戈尔</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">39k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">36 分钟</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+  <script class="next-config" data-name="mermaid" type="application/json">{"enable":true,"theme":{"light":"default","dark":"dark"},"js":{"url":"https://cdn.jsdelivr.net/npm/mermaid@8.13.8/dist/mermaid.min.js","integrity":"sha256-QmSAc2kIaUjleIJ46X7qPW2zrpCbXlMz3YIGgWpQ1Jo="}}</script>
+  <script src="/js/third-party/tags/mermaid.js"></script>
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"all","js":{"url":"https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js","integrity":"sha256-r+3itOMtGGjap0x+10hu6jW/gZCzxHsoKrOd7gyRSGY="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.2.0/dist/quicklink.umd.js" integrity="sha256-4kQf9z5ntdQrzsBC3YSHnEz02Z9C1UeW/E9OgnvlzSY=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":true,"archive":true,"delay":true,"timeout":3000,"priority":true,"url":"http://example.com/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
+
+</body>
+</html>

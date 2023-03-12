@@ -1,0 +1,101 @@
+---
+title: "证卷分析"
+author: "周宇航"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::material:
+    highlight: kate
+    dev: svg
+    fig_retina: 2
+    fig_width: 10
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=TRUE,
+               markup="asis",
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+library(ggplot2)
+library(colorspace) 
+library(showtext)
+showtext_auto()
+library(tidyverse)
+api <-  Tushare::pro_api(token = "d9bd8804edd9358e4d8b1a5b14ebcb98439c47468fa8595bb7e90457")
+datesys <- format(Sys.Date(), "%Y%m%d")
+#SH_688981$close <-  as.factor(SH_688981$close)
+#group_by(SH_688981, ts_code)
+# 函数定义
+SA <- function(tscode, startdate, enddate = format(Sys.Date(), "%Y%m%d")){
+  SAData <- api(api_name = 'daily', ts_code = tscode, start_date = startdate, end_date = enddate)
+  SAData$trade_date <-  as.Date(SAData$trade_date,format('%Y%m%d'))
+  Gplot <- ggplot(SAData,aes(x = trade_date,y = close,group = ts_code)) +
+  geom_point() +
+  layer(
+    geom = "line",
+    stat = "smooth",
+    position = "identity",
+    params = list(color = "grey",size = 1.5)
+  )+
+  layer(
+    geom = "linerange",
+    stat = "smooth", 
+    mapping = aes( color = after_stat(se), alpha = 1),    
+    position = "identity",
+    params = list(level <- 0.8)
+  )+
+  scale_x_date(date_breaks = "1 month",date_labels = '%Y-%m')+
+  labs( x = "Trading time", y = "price")+
+  ggtitle(c(tscode, startdate, enddate))
+  return(Gplot)
+}
+```
+
+## 回归分析 {.tabset}
+
+### 中芯国际(688981.SH 流通股 1353.7亿)
+
+```{r message=FALSE, warning=FALSE}
+SA("688981.SH", "20200101")
+ggsave("plot01.svg", device = "svg", width = 10, height = 4)
+```
+
+### 金螳螂(002081.SZ 流通股 1108.2亿)
+
+```{r message=FALSE, warning=FALSE}
+SA("002081.SZ", "2020101")
+ggsave("plot02.svg", device = "svg", width = 10, height = 4)
+```
+
+### 恺英网络(002517.SZ 流通66.42亿)
+
+```{r message=FALSE, warning=FALSE}
+SA("002517.SZ", "20200501")
+ggsave("plot03.svg", device = "svg", width = 10, height = 4)
+```
+
+```{r}
+library(reticulate)  # 导入 reticulate 包
+# use_python("F:/Program Files/anaconda/python.exe")  # 其中的 king 为本地电脑用户名
+# use_condaenv(condaenv="ak_test", required = TRUE)  # 也可以使用 conda 创建的虚拟环境，其中的 ak_test 为虚拟环境名称
+ak <- import("akshare")  # 类似于 import akshare as ak
+data <- ak$stock_zh_a_hist(symbol="000001", period="daily", start_date="20170301", end_date='20210907', adjust="")
+```
+
+```{python}
+# import akshare as ak
+# 
+# get_roll_yield_bar_df = ak.get_roll_yield_bar(type_method="date", var="RB", start_day="20180618", end_day="20180718")
+# print(get_roll_yield_bar_df)
+```
