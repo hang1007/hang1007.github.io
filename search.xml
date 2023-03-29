@@ -31,6 +31,108 @@
       </tags>
   </entry>
   <entry>
+    <title>单词整理</title>
+    <url>/2023/03/12/Strange%20words%20summary/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="单词整理"><span class="post-title-index">1   </span><a href="#单词整理" class="headerlink" title="单词整理"></a>单词整理</h1><h2 id="英一翻译中单词"><span class="post-title-index">1.1   </span><a href="#英一翻译中单词" class="headerlink" title="英一翻译中单词"></a>英一翻译中单词</h2><h3 id="2002-Text-1"><span class="post-title-index">1.1.1   </span><a href="#2002-Text-1" class="headerlink" title="2002 Text 1"></a>2002 Text 1</h3><p><strong>audience</strong>: The audience at a play,concert,film,or public meeting is the group of people watching or listening to it. 观众；听众 The audience of a writer or artist is the people who read their books  or look at their work. 读者</p>
+<p><strong>sympathy</strong>: If you have sympathy for someone who is in bad situation, you are sorry for them, and show this in the way you behave towords them. 同情心；同情 If you have sympathy withe someone’s ideas or opinions, you agree with them. （对观点、看法的）同意，支持</p>
+<p><strong>disorganized</strong>: Something that is disorganized is in a confused state or is badly planned or managed. 缺乏组织的；无系统的；杂乱无章的</p>
+<p><strong>secretaries</strong>: A secretary is a persion who is employed to do office work, such as typing letters, answering phone calls, and arranging meeting. 秘书</p>
+<p><strong>accommodations</strong>: Accommodation is used to refer to buildings or rooms where people live or stay. 住处，住所 [in AM, use 美国英语用 accommodations]</p>
+<h3 id="2003-Text-2"><span class="post-title-index">1.1.2   </span><a href="#2003-Text-2" class="headerlink" title="2003 Text 2"></a>2003 Text 2</h3><p><strong>biomedical</strong>: Biomedical research examines the effects of drugs and techniques on the biological systems of living creatures. 生物医学的</p>
+<p><strong>allegation</strong>: An allegation is a statement saying that someone has done something wrong. 指控；指责</p>
+<p><strong>brochure</strong>: A brochure is a magazine or thin book with pictures that gives you information about a product or service. （介绍产品或服务信息的）小册子</p>
+<p><strong>extinguish</strong>: If you extinguish a fire or a light, you stop it burning or shining. 熄灭；扑灭</p>
+<h3 id="2002-Text-3"><span class="post-title-index">1.1.3   </span><a href="#2002-Text-3" class="headerlink" title="2002 Text 3"></a>2002 Text 3</h3><p><strong>monopoly</strong>: If a company, person , or state has a monopoly on something such as an industy, they have complete control over it, so that it is impossible for others to become involved in it. 垄断；专营服务</p>
+<p><strong>throat</strong>: Your throat is the back of your mouth and the top part of the tubes that go down into your stomach and your lungs. 咽喉；喉咙；嗓子</p>
+<p><strong>consolidation</strong>: the act of consolidating or state of being consoildated. 巩固，变坚固</p>
+<p><strong>discrimination</strong>: Discrimination is the practice of treating one person or group of people less fairly or less well than other people less well than other people or groups. 区别对待；歧视</p>
+<p><strong>arbiter</strong>: An arbiter is a person or institution that judges and settles a quarrel between two other people or groups. 仲裁人；公断人</p>
+<h3 id="2003-Text-4"><span class="post-title-index">1.1.4   </span><a href="#2003-Text-4" class="headerlink" title="2003 Text 4"></a>2003 Text 4</h3><p><strong>inevitable</strong>: If something is invitable, it is certain to happen and cannot be preveted or avoided. 不可避免的；无法规避的；必然（发生）的</p>
+<p><strong>expectancy</strong>: Expectancy is the feeling or hope that something exciting, interesting, or good is about to happen. 期待；期望</p>
+<p><strong>hips</strong>: Your hips are the two areas at the sides of your body between the tops of your legs and your waist. 髋；臀部</p>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>人工翻译</tag>
+        <tag>考研英语一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>manim移植计划</title>
+    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="动画生成器"><span class="post-title-index">1   </span><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
+]]></content>
+      <categories>
+        <category>计算机技术</category>
+      </categories>
+      <tags>
+        <tag>代码移植</tag>
+        <tag>代替传统PPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python代码行解释</title>
+    <url>/2023/03/12/python%E4%BB%A3%E7%A0%81%E8%A1%8C%E8%A7%A3%E9%87%8A/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="预加载可能用到的模块"><span class="post-title-index">1   </span><a href="#预加载可能用到的模块" class="headerlink" title="预加载可能用到的模块"></a>预加载可能用到的模块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import operator as op</span><br><span class="line">from math import log</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<ol>
+<li>我们导入模块numpy并将它重命名为np（原来的略长）；</li>
+<li>导入模块operator并将它重命名为op；</li>
+<li>从math文件中导入模块log。</li>
+</ol>
+</blockquote>
+<h2 id="定义函数"><span class="post-title-index">2   </span><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">calcShannonEnt</span>(<span class="params">dataSet</span>):</span></span><br><span class="line">    labelCounts = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> featVec <span class="keyword">in</span> dataSet: </span><br><span class="line">        currentLabel = featVec[-<span class="number">1</span>]</span><br><span class="line">        <span class="keyword">if</span>(currentLabel <span class="keyword">not</span> <span class="keyword">in</span> labelCounts.keys()): </span><br><span class="line">            labelCounts[currentLabel] = <span class="number">0</span></span><br><span class="line">        labelCounts[currentLabel] += <span class="number">1</span></span><br><span class="line">    shannonEnt = <span class="number">0.0</span></span><br><span class="line">    rowNum = <span class="built_in">len</span>(dataSet)</span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> labelCounts:</span><br><span class="line">        prob = <span class="built_in">float</span>(labelCounts[key])/rowNum</span><br><span class="line">        shannonEnt -= prob * log(prob,<span class="number">2</span>)</span><br><span class="line">    <span class="keyword">return</span> shannonEnt</span><br></pre></td></tr></table></figure>
+
+<h2 id="为所有可能分类的创造字典"><span class="post-title-index">3   </span><a href="#为所有可能分类的创造字典" class="headerlink" title="为所有可能分类的创造字典"></a>为所有可能分类的创造字典</h2><blockquote>
+<blockquote>
+<ol>
+<li><p>def 定义一个函数</p>
+</li>
+<li><p>创造一个空变量labelCounts</p>
+</li>
+<li><p>变量featVec在区间dataSet内循环</p>
+</li>
+<li><p>变量currentLabel赋值为featVec[-1]</p>
+</li>
+<li><p>shannonEnt -= prob * log(prob,2)  以二为底求对数</p>
+</li>
+</ol>
+</blockquote>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">splitDataSet</span>(<span class="params">dataSet, axis, value</span>):</span></span><br><span class="line">    retDataSet = []</span><br><span class="line">    <span class="keyword">for</span> featVec <span class="keyword">in</span> dataSet:</span><br><span class="line">        <span class="keyword">if</span>(featVec[axis] == value):</span><br><span class="line">            reducedFeatVec = featVec[:axis]    </span><br><span class="line">            reducedFeatVec.extend(featVec[axis+<span class="number">1</span>:])</span><br><span class="line">            retDataSet.append(reducedFeatVec)</span><br><span class="line">    <span class="keyword">return</span> retDataSet</span><br></pre></td></tr></table></figure>
+
+<h2 id="按照给定特征划分数据集"><span class="post-title-index">4   </span><a href="#按照给定特征划分数据集" class="headerlink" title="按照给定特征划分数据集"></a>按照给定特征划分数据集</h2><blockquote>
+<blockquote>
+<p>2 创造新的list对象</p>
+<p>5 ~ 7抽取</p>
+</blockquote>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">chooseBestFeatureToSplit</span>(<span class="params">dataSet</span>):</span></span><br><span class="line">    numFeatures = np.shape(dataSet)[<span class="number">1</span>]-<span class="number">1</span>      </span><br><span class="line">    baseEntropy = calcShannonEnt(dataSet)</span><br><span class="line">    bestInfoGain = <span class="number">0.0</span></span><br><span class="line">    bestFeature = -<span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(numFeatures):        </span><br><span class="line">        featList = [example[i] <span class="keyword">for</span> example <span class="keyword">in</span> dataSet]</span><br><span class="line">        uniqueVals = <span class="built_in">set</span>(featList)       </span><br><span class="line">        newEntropy = <span class="number">0.0</span></span><br><span class="line">        <span class="keyword">for</span> value <span class="keyword">in</span> uniqueVals:</span><br><span class="line">            subDataSet = splitDataSet(dataSet, i, value)</span><br><span class="line">            prob = <span class="built_in">len</span>(subDataSet)/<span class="built_in">float</span>(<span class="built_in">len</span>(dataSet))</span><br><span class="line">            newEntropy += prob * calcShannonEnt(subDataSet)     </span><br><span class="line">        infoGain = baseEntropy - newEntropy     </span><br><span class="line">        <span class="keyword">if</span> (infoGain &gt; bestInfoGain):       </span><br><span class="line">            bestInfoGain = infoGain        </span><br><span class="line">            bestFeature = i</span><br><span class="line">    <span class="keyword">return</span> bestFeature </span><br></pre></td></tr></table></figure>
+
+<h2 id="选择最好的数据集划分方式"><span class="post-title-index">5   </span><a href="#选择最好的数据集划分方式" class="headerlink" title="选择最好的数据集划分方式"></a>选择最好的数据集划分方式</h2><blockquote>
+<blockquote>
+<p>7 ~ 8创造唯一的分类标签列表</p>
+<p>11 ~ 13计算每种划分方式的信息熵</p>
+<p>16 ~ 17计算最好的信息增益</p>
+</blockquote>
+</blockquote>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">majorityCnt</span>(<span class="params">classList</span>):</span></span><br><span class="line">    classCount=&#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> vote <span class="keyword">in</span> classList:</span><br><span class="line">        <span class="keyword">if</span>(vote <span class="keyword">not</span> <span class="keyword">in</span> classCount.keys()): </span><br><span class="line">            classCount[vote] = <span class="number">0</span></span><br><span class="line">        classCount[vote] += <span class="number">1</span></span><br><span class="line">    sortedClassCount = <span class="built_in">sorted</span>(classCount.items(), key=op.itemgetter(<span class="number">1</span>), reverse=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> sortedClassCount[<span class="number">0</span>][<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。"><span class="post-title-index">5.1   </span><a href="#该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。" class="headerlink" title="该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。"></a>该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。</h3></blockquote>
+]]></content>
+      <categories>
+        <category>计算机技术</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>代码</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>几个长期被曲解和混淆的观点——完整准确地理解邓小平理论</title>
     <url>/2023/03/12/Several%20long-misunderstood%20and%20confused%20views%20-%20A%20complete%20and%20accurate%20understanding%20of%20Deng%20Xiaoping&#39;s%20theory/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>作者：宋方敏</p>
@@ -113,45 +215,22 @@
 ]]></content>
   </entry>
   <entry>
-    <title>单词整理</title>
-    <url>/2023/03/12/Strange%20words%20summary/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="单词整理"><span class="post-title-index">1   </span><a href="#单词整理" class="headerlink" title="单词整理"></a>单词整理</h1><h2 id="英一翻译中单词"><span class="post-title-index">1.1   </span><a href="#英一翻译中单词" class="headerlink" title="英一翻译中单词"></a>英一翻译中单词</h2><h3 id="2002-Text-1"><span class="post-title-index">1.1.1   </span><a href="#2002-Text-1" class="headerlink" title="2002 Text 1"></a>2002 Text 1</h3><p><strong>audience</strong>: The audience at a play,concert,film,or public meeting is the group of people watching or listening to it. 观众；听众 The audience of a writer or artist is the people who read their books  or look at their work. 读者</p>
-<p><strong>sympathy</strong>: If you have sympathy for someone who is in bad situation, you are sorry for them, and show this in the way you behave towords them. 同情心；同情 If you have sympathy withe someone’s ideas or opinions, you agree with them. （对观点、看法的）同意，支持</p>
-<p><strong>disorganized</strong>: Something that is disorganized is in a confused state or is badly planned or managed. 缺乏组织的；无系统的；杂乱无章的</p>
-<p><strong>secretaries</strong>: A secretary is a persion who is employed to do office work, such as typing letters, answering phone calls, and arranging meeting. 秘书</p>
-<p><strong>accommodations</strong>: Accommodation is used to refer to buildings or rooms where people live or stay. 住处，住所 [in AM, use 美国英语用 accommodations]</p>
-<h3 id="2003-Text-2"><span class="post-title-index">1.1.2   </span><a href="#2003-Text-2" class="headerlink" title="2003 Text 2"></a>2003 Text 2</h3><p><strong>biomedical</strong>: Biomedical research examines the effects of drugs and techniques on the biological systems of living creatures. 生物医学的</p>
-<p><strong>allegation</strong>: An allegation is a statement saying that someone has done something wrong. 指控；指责</p>
-<p><strong>brochure</strong>: A brochure is a magazine or thin book with pictures that gives you information about a product or service. （介绍产品或服务信息的）小册子</p>
-<p><strong>extinguish</strong>: If you extinguish a fire or a light, you stop it burning or shining. 熄灭；扑灭</p>
-<h3 id="2002-Text-3"><span class="post-title-index">1.1.3   </span><a href="#2002-Text-3" class="headerlink" title="2002 Text 3"></a>2002 Text 3</h3><p><strong>monopoly</strong>: If a company, person , or state has a monopoly on something such as an industy, they have complete control over it, so that it is impossible for others to become involved in it. 垄断；专营服务</p>
-<p><strong>throat</strong>: Your throat is the back of your mouth and the top part of the tubes that go down into your stomach and your lungs. 咽喉；喉咙；嗓子</p>
-<p><strong>consolidation</strong>: the act of consolidating or state of being consoildated. 巩固，变坚固</p>
-<p><strong>discrimination</strong>: Discrimination is the practice of treating one person or group of people less fairly or less well than other people less well than other people or groups. 区别对待；歧视</p>
-<p><strong>arbiter</strong>: An arbiter is a person or institution that judges and settles a quarrel between two other people or groups. 仲裁人；公断人</p>
-<h3 id="2003-Text-4"><span class="post-title-index">1.1.4   </span><a href="#2003-Text-4" class="headerlink" title="2003 Text 4"></a>2003 Text 4</h3><p><strong>inevitable</strong>: If something is invitable, it is certain to happen and cannot be preveted or avoided. 不可避免的；无法规避的；必然（发生）的</p>
-<p><strong>expectancy</strong>: Expectancy is the feeling or hope that something exciting, interesting, or good is about to happen. 期待；期望</p>
-<p><strong>hips</strong>: Your hips are the two areas at the sides of your body between the tops of your legs and your waist. 髋；臀部</p>
+    <title>证卷分析</title>
+    <url>/2023/03/12/security_analysis/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="回归分析"><span class="post-title-index">1   </span><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><span class="post-title-index">1.1   </span><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2023/03/12/security_analysis/plot01.svg" class title="plot01">
+
+<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><span class="post-title-index">1.2   </span><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2023/03/12/security_analysis/plot02.svg" class title="plot02">
+
+<h3 id="恺英网络-002517-SZ-流通66-42亿"><span class="post-title-index">1.3   </span><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2023/03/12/security_analysis/plot03.svg" class title="plot03">
+
+<p>.</p>
 ]]></content>
       <categories>
-        <category>考研</category>
+        <category>社科技术</category>
       </categories>
       <tags>
-        <tag>人工翻译</tag>
-        <tag>考研英语一</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>manim移植计划</title>
-    <url>/2021/08/10/manim%E7%A7%BB%E6%A4%8D%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="动画生成器"><span class="post-title-index">1   </span><a href="#动画生成器" class="headerlink" title="动画生成器"></a>动画生成器</h1><p>manim可以通过python生成动画将流畅的动画代替传统PPT，创造更加易用美观的展示方式。</p>
-]]></content>
-      <categories>
-        <category>计算机技术</category>
-      </categories>
-      <tags>
-        <tag>代码移植</tag>
-        <tag>代替传统PPT</tag>
+        <tag>股票</tag>
+        <tag>金融投资</tag>
       </tags>
   </entry>
   <entry>
@@ -193,85 +272,6 @@
       </tags>
   </entry>
   <entry>
-    <title>python代码行解释</title>
-    <url>/2023/03/12/python%E4%BB%A3%E7%A0%81%E8%A1%8C%E8%A7%A3%E9%87%8A/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="预加载可能用到的模块"><span class="post-title-index">1   </span><a href="#预加载可能用到的模块" class="headerlink" title="预加载可能用到的模块"></a>预加载可能用到的模块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import operator as op</span><br><span class="line">from math import log</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<ol>
-<li>我们导入模块numpy并将它重命名为np（原来的略长）；</li>
-<li>导入模块operator并将它重命名为op；</li>
-<li>从math文件中导入模块log。</li>
-</ol>
-</blockquote>
-<h2 id="定义函数"><span class="post-title-index">2   </span><a href="#定义函数" class="headerlink" title="定义函数"></a>定义函数</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">calcShannonEnt</span>(<span class="params">dataSet</span>):</span></span><br><span class="line">    labelCounts = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> featVec <span class="keyword">in</span> dataSet: </span><br><span class="line">        currentLabel = featVec[-<span class="number">1</span>]</span><br><span class="line">        <span class="keyword">if</span>(currentLabel <span class="keyword">not</span> <span class="keyword">in</span> labelCounts.keys()): </span><br><span class="line">            labelCounts[currentLabel] = <span class="number">0</span></span><br><span class="line">        labelCounts[currentLabel] += <span class="number">1</span></span><br><span class="line">    shannonEnt = <span class="number">0.0</span></span><br><span class="line">    rowNum = <span class="built_in">len</span>(dataSet)</span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> labelCounts:</span><br><span class="line">        prob = <span class="built_in">float</span>(labelCounts[key])/rowNum</span><br><span class="line">        shannonEnt -= prob * log(prob,<span class="number">2</span>)</span><br><span class="line">    <span class="keyword">return</span> shannonEnt</span><br></pre></td></tr></table></figure>
-
-<h2 id="为所有可能分类的创造字典"><span class="post-title-index">3   </span><a href="#为所有可能分类的创造字典" class="headerlink" title="为所有可能分类的创造字典"></a>为所有可能分类的创造字典</h2><blockquote>
-<blockquote>
-<ol>
-<li><p>def 定义一个函数</p>
-</li>
-<li><p>创造一个空变量labelCounts</p>
-</li>
-<li><p>变量featVec在区间dataSet内循环</p>
-</li>
-<li><p>变量currentLabel赋值为featVec[-1]</p>
-</li>
-<li><p>shannonEnt -= prob * log(prob,2)  以二为底求对数</p>
-</li>
-</ol>
-</blockquote>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">splitDataSet</span>(<span class="params">dataSet, axis, value</span>):</span></span><br><span class="line">    retDataSet = []</span><br><span class="line">    <span class="keyword">for</span> featVec <span class="keyword">in</span> dataSet:</span><br><span class="line">        <span class="keyword">if</span>(featVec[axis] == value):</span><br><span class="line">            reducedFeatVec = featVec[:axis]    </span><br><span class="line">            reducedFeatVec.extend(featVec[axis+<span class="number">1</span>:])</span><br><span class="line">            retDataSet.append(reducedFeatVec)</span><br><span class="line">    <span class="keyword">return</span> retDataSet</span><br></pre></td></tr></table></figure>
-
-<h2 id="按照给定特征划分数据集"><span class="post-title-index">4   </span><a href="#按照给定特征划分数据集" class="headerlink" title="按照给定特征划分数据集"></a>按照给定特征划分数据集</h2><blockquote>
-<blockquote>
-<p>2 创造新的list对象</p>
-<p>5 ~ 7抽取</p>
-</blockquote>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">chooseBestFeatureToSplit</span>(<span class="params">dataSet</span>):</span></span><br><span class="line">    numFeatures = np.shape(dataSet)[<span class="number">1</span>]-<span class="number">1</span>      </span><br><span class="line">    baseEntropy = calcShannonEnt(dataSet)</span><br><span class="line">    bestInfoGain = <span class="number">0.0</span></span><br><span class="line">    bestFeature = -<span class="number">1</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(numFeatures):        </span><br><span class="line">        featList = [example[i] <span class="keyword">for</span> example <span class="keyword">in</span> dataSet]</span><br><span class="line">        uniqueVals = <span class="built_in">set</span>(featList)       </span><br><span class="line">        newEntropy = <span class="number">0.0</span></span><br><span class="line">        <span class="keyword">for</span> value <span class="keyword">in</span> uniqueVals:</span><br><span class="line">            subDataSet = splitDataSet(dataSet, i, value)</span><br><span class="line">            prob = <span class="built_in">len</span>(subDataSet)/<span class="built_in">float</span>(<span class="built_in">len</span>(dataSet))</span><br><span class="line">            newEntropy += prob * calcShannonEnt(subDataSet)     </span><br><span class="line">        infoGain = baseEntropy - newEntropy     </span><br><span class="line">        <span class="keyword">if</span> (infoGain &gt; bestInfoGain):       </span><br><span class="line">            bestInfoGain = infoGain        </span><br><span class="line">            bestFeature = i</span><br><span class="line">    <span class="keyword">return</span> bestFeature </span><br></pre></td></tr></table></figure>
-
-<h2 id="选择最好的数据集划分方式"><span class="post-title-index">5   </span><a href="#选择最好的数据集划分方式" class="headerlink" title="选择最好的数据集划分方式"></a>选择最好的数据集划分方式</h2><blockquote>
-<blockquote>
-<p>7 ~ 8创造唯一的分类标签列表</p>
-<p>11 ~ 13计算每种划分方式的信息熵</p>
-<p>16 ~ 17计算最好的信息增益</p>
-</blockquote>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">majorityCnt</span>(<span class="params">classList</span>):</span></span><br><span class="line">    classCount=&#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> vote <span class="keyword">in</span> classList:</span><br><span class="line">        <span class="keyword">if</span>(vote <span class="keyword">not</span> <span class="keyword">in</span> classCount.keys()): </span><br><span class="line">            classCount[vote] = <span class="number">0</span></span><br><span class="line">        classCount[vote] += <span class="number">1</span></span><br><span class="line">    sortedClassCount = <span class="built_in">sorted</span>(classCount.items(), key=op.itemgetter(<span class="number">1</span>), reverse=<span class="literal">True</span>)</span><br><span class="line">    <span class="keyword">return</span> sortedClassCount[<span class="number">0</span>][<span class="number">0</span>]</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<h3 id="该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。"><span class="post-title-index">5.1   </span><a href="#该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。" class="headerlink" title="该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。"></a>该函数使用分类名称的列表，然后创造键值为classList中唯一的值得数据字典，字典对象储存了classList中每个类标签出现得频率，最后利用operator操作键值排序字典，并返回出现次数最多的分类名称。</h3></blockquote>
-]]></content>
-      <categories>
-        <category>计算机技术</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>代码</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>证卷分析</title>
-    <url>/2023/03/12/security_analysis/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="回归分析"><span class="post-title-index">1   </span><a href="#回归分析" class="headerlink" title="回归分析"></a>回归分析</h2><h3 id="中芯国际-688981-SH-流通股-1353-7亿"><span class="post-title-index">1.1   </span><a href="#中芯国际-688981-SH-流通股-1353-7亿" class="headerlink" title="中芯国际(688981.SH 流通股 1353.7亿)"></a>中芯国际(688981.SH 流通股 1353.7亿)</h3><img data-src="/2023/03/12/security_analysis/plot01.svg" class title="plot01">
-
-<h3 id="金螳螂-002081-SZ-流通股-1108-2亿"><span class="post-title-index">1.2   </span><a href="#金螳螂-002081-SZ-流通股-1108-2亿" class="headerlink" title="金螳螂(002081.SZ 流通股 1108.2亿)"></a>金螳螂(002081.SZ 流通股 1108.2亿)</h3><img data-src="/2023/03/12/security_analysis/plot02.svg" class title="plot02">
-
-<h3 id="恺英网络-002517-SZ-流通66-42亿"><span class="post-title-index">1.3   </span><a href="#恺英网络-002517-SZ-流通66-42亿" class="headerlink" title="恺英网络(002517.SZ 流通66.42亿)"></a>恺英网络(002517.SZ 流通66.42亿)</h3><img data-src="/2023/03/12/security_analysis/plot03.svg" class title="plot03">
-
-<p>.</p>
-]]></content>
-      <categories>
-        <category>社科技术</category>
-      </categories>
-      <tags>
-        <tag>股票</tag>
-        <tag>金融投资</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大二宏观经济学复习</title>
     <url>/2023/03/12/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E8%A1%A5%E8%80%83%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="词语解释"><span class="post-title-index">1   </span><a href="#词语解释" class="headerlink" title="词语解释"></a>词语解释</h2><ol>
@@ -293,18 +293,6 @@
 <li><strong>挤出效应</strong>：是指由于政府支出增加所引起的私人消费火投资降低的效果。</li>
 </ol>
 ]]></content>
-  </entry>
-  <entry>
-    <title>微积分例题</title>
-    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
-      </tags>
   </entry>
   <entry>
     <title>市场营销学报告思路</title>
@@ -553,6 +541,30 @@
       </tags>
   </entry>
   <entry>
+    <title>微积分例题</title>
+    <url>/2021/08/09/%E5%BE%AE%E7%A7%AF%E5%88%86%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学分析（陈纪修）例题</title>
+    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
+      <categories>
+        <category>自然科学技术</category>
+      </categories>
+      <tags>
+        <tag>数学分析</tag>
+        <tag>例题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数学分析大纲</title>
     <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%E5%A4%A7%E7%BA%B2-1/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="绪论-实数"><span class="post-title-index">1   </span><a href="#绪论-实数" class="headerlink" title="绪论 实数"></a>绪论 实数</h1><h2 id="有理数域"><span class="post-title-index">1.1   </span><a href="#有理数域" class="headerlink" title="有理数域"></a>有理数域</h2><h3 id="前言"><span class="post-title-index">1.1.1   </span><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>读者学数学一定要有耐心！</p>
@@ -576,18 +588,6 @@
       <tags>
         <tag>数学分析</tag>
         <tag>大纲</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学分析（陈纪修）例题</title>
-    <url>/2021/08/09/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%EF%BC%88%E9%99%88%E7%BA%AA%E4%BF%AE%EF%BC%89%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">]]></content>
-      <categories>
-        <category>自然科学技术</category>
-      </categories>
-      <tags>
-        <tag>数学分析</tag>
-        <tag>例题</tag>
       </tags>
   </entry>
   <entry>
@@ -844,24 +844,6 @@
       </tags>
   </entry>
   <entry>
-    <title>WHAT IS YOUR OBJECT IN STUDYING ENGLISH</title>
-    <url>/2023/03/29/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>WHAT IS YOUR OBJECT<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Object：目的">[1]</span></a></sup> IN STUDYING ENGLISH？</strong> </p>
-<p>I ask you this question. But I do not want you to answer me.I want you only to answer yourself. You might answer me falsely. <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="falsely：伪；假 ">[3]</span></a></sup>You might answer anybody falsely. But you cannot answer yourself falsely. You do not need to answer yourself falsely. </p>
-<p>I do not suspect<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="suspect：猜疑">[4]</span></a></sup> that your object of studying English may be a dishonourable<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="dishonourable：卑劣的；不正当">[5]</span></a></sup> one. It cannot be<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="cannot be：决非 ">[6]</span></a></sup> to kill a friend， nor to win<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="win：得 ">[7]</span></a></sup> your neighbour’s wife， nor to pick pockets<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="pick pockets：做扒手 ">[8]</span></a></sup> in the street. </p>
-<p>Still<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Still：但；仍 ">[9]</span></a></sup> your object may be one that you do not like to tell me or anybody else. It may be to please<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="please：取悦于 ">[10]</span></a></sup> your parents， to be “modern”，<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="modern：摩登的 ">[11]</span></a></sup> to get through an examination as through a fever.<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="get through an examination as through a fever：挨过考试，如挨过热病 ">[12]</span></a></sup> Do you， reader， care<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="care：肯 ">[13]</span></a></sup> to say so to me or anybody else？ </p>
-<p>Whatever your object may be，<sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Whatever your object may be：无论君之目的为何 ">[14]</span></a></sup> you must feel free<sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="free：自由的；无所顾虑的 ">[15]</span></a></sup> to tell yourself truly. </p>
-<p>However， I hope you are a serious<sup id="fnref:16"><a href="#fn:16" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="serious：认真的 ">[16]</span></a></sup> student of English. I hope your object is a serious one. It may be to read the English classics<sup id="fnref:17"><a href="#fn:17" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="classics：文学名著 ">[17]</span></a></sup> in the origin</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Object：目的<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">falsely：伪；假<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">suspect：猜疑<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">dishonourable：卑劣的；不正当<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">cannot be：决非<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">win：得<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">pick pockets：做扒手<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Still：但；仍<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">please：取悦于<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">modern：摩登的<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">get through an examination as through a fever：挨过考试，如挨过热病<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">care：肯<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Whatever your object may be：无论君之目的为何<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">free：自由的；无所顾虑的<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">serious：认真的<a href="#fnref:16" rev="footnote"> ↩</a></span></li><li id="fn:17"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">17.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">classics：文学名著<a href="#fnref:17" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>语种学习</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>翻译</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中国古代文明是否被高估</title>
     <url>/2023/03/12/%E9%80%90%E6%B8%90%E8%BF%B7%E5%A4%B1%E7%9A%84%E5%AD%A6%E8%80%85%E4%BB%AC/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h1 id="逐渐迷失的学者们"><span class="post-title-index">1   </span><a href="#逐渐迷失的学者们" class="headerlink" title="逐渐迷失的学者们"></a>逐渐迷失的学者们</h1><p>前人的地位是由后人决定的，当你可以鞭挞世界时，前人的一切卑微都会被描述为质朴，当你被世界所鞭挞时，前人的一切成就都会被认为是高估。</p>
@@ -879,5 +861,23 @@
 <p>至于中国古代文明究竟是被高估还是低估，与其现在高强度辩经（你辩了别人也听不到），不如设法进一步强大起来，等到中国再度肇纪御极，统摄八方之后，自有那些妙笔生花口吐白莲之人，去论证你的历史是何等的伟大。</p>
 <p>他们可以做的比你更好。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>WHAT IS YOUR OBJECT IN STUDYING ENGLISH</title>
+    <url>/2023/03/29/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><strong>WHAT IS YOUR OBJECT<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Object：目的">[1]</span></a></sup> IN STUDYING ENGLISH？</strong> </p>
+<p>I ask you this question. But I do not want you to answer me.I want you only to answer yourself. You might answer me falsely. <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="falsely：伪；假 ">[3]</span></a></sup>You might answer anybody falsely. But you cannot answer yourself falsely. You do not need to answer yourself falsely. </p>
+<p>I do not suspect<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="suspect：猜疑">[4]</span></a></sup> that your object of studying English may be a dishonourable<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="dishonourable：卑劣的；不正当">[5]</span></a></sup> one. It cannot be<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="cannot be：决非 ">[6]</span></a></sup> to kill a friend， nor to win<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="win：得 ">[7]</span></a></sup> your neighbour’s wife， nor to pick pockets<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="pick pockets：做扒手 ">[8]</span></a></sup> in the street. </p>
+<p>Still<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Still：但；仍 ">[9]</span></a></sup> your object may be one that you do not like to tell me or anybody else. It may be to please<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="please：取悦于 ">[10]</span></a></sup> your parents， to be “modern”，<sup id="fnref:11"><a href="#fn:11" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="modern：摩登的 ">[11]</span></a></sup> to get through an examination as through a fever.<sup id="fnref:12"><a href="#fn:12" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="get through an examination as through a fever：挨过考试，如挨过热病 ">[12]</span></a></sup> Do you， reader， care<sup id="fnref:13"><a href="#fn:13" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="care：肯 ">[13]</span></a></sup> to say so to me or anybody else？ </p>
+<p>Whatever your object may be，<sup id="fnref:14"><a href="#fn:14" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Whatever your object may be：无论君之目的为何 ">[14]</span></a></sup> you must feel free<sup id="fnref:15"><a href="#fn:15" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="free：自由的；无所顾虑的 ">[15]</span></a></sup> to tell yourself truly. </p>
+<p>However， I hope you are a serious<sup id="fnref:16"><a href="#fn:16" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="serious：认真的 ">[16]</span></a></sup> student of English. I hope your object is a serious one. It may be to read the English classics<sup id="fnref:17"><a href="#fn:17" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="classics：文学名著 ">[17]</span></a></sup> in the origin</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Object：目的<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">falsely：伪；假<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">suspect：猜疑<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">dishonourable：卑劣的；不正当<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">cannot be：决非<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">win：得<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">pick pockets：做扒手<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Still：但；仍<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">please：取悦于<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">modern：摩登的<a href="#fnref:11" rev="footnote"> ↩</a></span></li><li id="fn:12"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">12.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">get through an examination as through a fever：挨过考试，如挨过热病<a href="#fnref:12" rev="footnote"> ↩</a></span></li><li id="fn:13"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">13.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">care：肯<a href="#fnref:13" rev="footnote"> ↩</a></span></li><li id="fn:14"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">14.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Whatever your object may be：无论君之目的为何<a href="#fnref:14" rev="footnote"> ↩</a></span></li><li id="fn:15"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">15.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">free：自由的；无所顾虑的<a href="#fnref:15" rev="footnote"> ↩</a></span></li><li id="fn:16"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">16.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">serious：认真的<a href="#fnref:16" rev="footnote"> ↩</a></span></li><li id="fn:17"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">17.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">classics：文学名著<a href="#fnref:17" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>语种学习</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>翻译</tag>
+      </tags>
   </entry>
 </search>
