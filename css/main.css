@@ -1083,7 +1083,7 @@ pre code {
 }
 .pdfobject-container iframe,
 .pdfobject-container embed {
-  height: 1024px;
+  height: 500px;
   width: 100%;
 }
 .post-body .tabs {
